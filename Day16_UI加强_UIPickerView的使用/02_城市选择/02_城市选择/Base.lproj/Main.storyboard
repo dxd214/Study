@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f63-9d-aNi">
+                                <rect key="frame" x="0.0" y="70" width="600" height="250"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="W4k-0X-RVF"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOC-ih-4BW">
+                                <rect key="frame" x="80" y="360" width="180" height="20.5"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXP-0Z-dK5">
+                                <rect key="frame" x="340" y="360" width="180" height="20.5"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EXP-0Z-dK5" firstAttribute="width" secondItem="eOC-ih-4BW" secondAttribute="width" id="1UM-D0-Of5"/>
+                            <constraint firstItem="EXP-0Z-dK5" firstAttribute="top" secondItem="f63-9d-aNi" secondAttribute="bottom" constant="40" id="4al-tM-N6H"/>
+                            <constraint firstItem="EXP-0Z-dK5" firstAttribute="leading" secondItem="eOC-ih-4BW" secondAttribute="trailing" constant="80" id="8m1-MW-Bos"/>
+                            <constraint firstItem="f63-9d-aNi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Iwl-dj-Ffc"/>
+                            <constraint firstItem="EXP-0Z-dK5" firstAttribute="height" secondItem="eOC-ih-4BW" secondAttribute="height" id="Qcd-kC-aL0"/>
+                            <constraint firstAttribute="trailing" secondItem="f63-9d-aNi" secondAttribute="trailing" id="VDe-Ov-0ab"/>
+                            <constraint firstItem="eOC-ih-4BW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="X4r-n1-I10"/>
+                            <constraint firstItem="f63-9d-aNi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZNn-jX-tz9"/>
+                            <constraint firstItem="eOC-ih-4BW" firstAttribute="top" secondItem="f63-9d-aNi" secondAttribute="bottom" constant="40" id="lYE-3y-VKA"/>
+                            <constraint firstAttribute="trailing" secondItem="EXP-0Z-dK5" secondAttribute="trailing" constant="80" id="mmZ-gQ-LfB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="EXP-0Z-dK5" id="dTZ-7I-FJA"/>
+                        <outlet property="pickerView" destination="f63-9d-aNi" id="deY-lx-CYG"/>
+                        <outlet property="provinceLabel" destination="eOC-ih-4BW" id="Mfa-IF-Mtn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

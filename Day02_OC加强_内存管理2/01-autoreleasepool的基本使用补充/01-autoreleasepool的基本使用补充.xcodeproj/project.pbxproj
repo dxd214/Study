@@ -1,0 +1,1715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBE3FA11C269AE20032CA90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE3FA01C269AE20032CA90 /* main.m */; };
+		1EBE3FA91C269CE90032CA90 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE3FA81C269CE90032CA90 /* Person.m */; };
+		1EE2837D1C27823100EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2837C1C27823100EF45C4 /* main.m */; };
+		1EE283831C27829800EF45C4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283821C27829800EF45C4 /* Person.m */; };
+		1EE283861C27858D00EF45C4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283851C27858D00EF45C4 /* Student.m */; };
+		1EE2838E1C2789BA00EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2838D1C2789BA00EF45C4 /* main.m */; };
+		1EE283941C2789DB00EF45C4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283931C2789DB00EF45C4 /* Student.m */; };
+		1EE2839C1C278F8A00EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2839B1C278F8A00EF45C4 /* main.m */; };
+		1EE283A71C2797F400EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283A61C2797F400EF45C4 /* main.m */; };
+		1EE283AD1C27986400EF45C4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283AC1C27986400EF45C4 /* Dog.m */; };
+		1EE283B51C279EB800EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283B41C279EB800EF45C4 /* main.m */; };
+		1EE283BB1C27A07200EF45C4 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283BA1C27A07200EF45C4 /* Car.m */; };
+		1EE283C31C27BB4D00EF45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283C21C27BB4D00EF45C4 /* main.m */; };
+		1EE283C91C27BB7000EF45C4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283C81C27BB7000EF45C4 /* Person.m */; };
+		1EE283CC1C27BB7800EF45C4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE283CB1C27BB7800EF45C4 /* Dog.m */; };
+		1EE92A0D1C27CFDE00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A0C1C27CFDE00A2EB85 /* main.m */; };
+		1EE92A131C27CFEE00A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A121C27CFEE00A2EB85 /* Person.m */; };
+		1EE92A191C27D49E00A2EB85 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A181C27D49E00A2EB85 /* Dog.m */; };
+		1EE92A211C27DC0C00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A201C27DC0C00A2EB85 /* main.m */; };
+		1EE92A271C27DC2400A2EB85 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A261C27DC2400A2EB85 /* Student.m */; };
+		1EE92A2F1C27E26E00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A2E1C27E26E00A2EB85 /* main.m */; };
+		1EE92A3A1C27E2CA00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A391C27E2CA00A2EB85 /* main.m */; };
+		1EE92A421C27E94C00A2EB85 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A3F1C27E94C00A2EB85 /* Car.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1EE92A431C27E94C00A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A411C27E94C00A2EB85 /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1EE92A461C27E99300A2EB85 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A451C27E99300A2EB85 /* Student.m */; };
+		1EE92A4B1C27EBD900A2EB85 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A481C27EBD900A2EB85 /* Car.m */; };
+		1EE92A4C1C27EBD900A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A4A1C27EBD900A2EB85 /* Person.m */; };
+		1EE92A541C27F26900A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A531C27F26900A2EB85 /* main.m */; };
+		1EE92A5A1C27F4F900A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A591C27F4F900A2EB85 /* Person.m */; };
+		1EE92A5D1C2841AC00A2EB85 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92A5C1C2841AC00A2EB85 /* NSString+Extension.m */; };
+		1EE92AA21C2920B700A2EB85 /* Person+playGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AA11C2920B700A2EB85 /* Person+playGame.m */; };
+		1EE92ABB1C2922FB00A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92ABA1C2922FB00A2EB85 /* Person.m */; };
+		1EE92ABD1C29257A00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92ABC1C29257A00A2EB85 /* main.m */; };
+		1EE92AC51C292AAD00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AC41C292AAD00A2EB85 /* main.m */; };
+		1EE92ACB1C29A74C00A2EB85 /* NSObject+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92ACA1C29A74C00A2EB85 /* NSObject+Eat.m */; };
+		1EE92ACE1C29A77E00A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92ACD1C29A77E00A2EB85 /* Person.m */; };
+		1EE92AD61C29A8CE00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AD51C29A8CE00A2EB85 /* main.m */; };
+		1EE92ADC1C29A8EA00A2EB85 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92ADB1C29A8EA00A2EB85 /* NSString+Extension.m */; };
+		1EE92AE41C2A5EE000A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AE31C2A5EE000A2EB85 /* main.m */; };
+		1EE92AEA1C2A69CC00A2EB85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AE91C2A69CC00A2EB85 /* Person.m */; };
+		1EE92AF31C2A6F2E00A2EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92AF21C2A6F2E00A2EB85 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EBE3F9B1C269AE20032CA90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283781C27823100EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283891C2789BA00EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283971C278F8A00EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283A21C2797F400EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283B01C279EB800EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE283BE1C27BB4D00EF45C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92A081C27CFDE00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92A1C1C27DC0C00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92A2A1C27E26E00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92A351C27E2CA00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92A4F1C27F26800A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92AB01C2922C100A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92AC01C292AAD00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92AD11C29A8CE00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92ADF1C2A5EE000A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1EE92AEE1C2A6F2E00A2EB85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EBE3F9D1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-autoreleasepool的基本使用补充"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE3FA01C269AE20032CA90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EBE3FA71C269CE90032CA90 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EBE3FA81C269CE90032CA90 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE2837A1C27823100EF45C4 /* 02-autoreleasepool的使用场景 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-autoreleasepool的使用场景"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE2837C1C27823100EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283811C27829800EF45C4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE283821C27829800EF45C4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE283841C27858D00EF45C4 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1EE283851C27858D00EF45C4 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1EE2838B1C2789BA00EF45C4 /* 03-学生类练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-学生类练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE2838D1C2789BA00EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283921C2789DB00EF45C4 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1EE283931C2789DB00EF45C4 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1EE283991C278F8A00EF45C4 /* 04-ARC的概念和原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-ARC的概念和原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE2839B1C278F8A00EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283A41C2797F400EF45C4 /* 05-ARC快速入门 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-ARC快速入门"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE283A61C2797F400EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283AB1C27986400EF45C4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		1EE283AC1C27986400EF45C4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		1EE283B21C279EB800EF45C4 /* 06-ARC下的单内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-ARC下的单内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE283B41C279EB800EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283B91C27A07200EF45C4 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1EE283BA1C27A07200EF45C4 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1EE283C01C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-ARC下多个对象的内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE283C21C27BB4D00EF45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE283C71C27BB7000EF45C4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE283C81C27BB7000EF45C4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE283CA1C27BB7800EF45C4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		1EE283CB1C27BB7800EF45C4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		1EE92A0A1C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-ARC下的循环引用问题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92A0C1C27CFDE00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92A111C27CFEE00A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92A121C27CFEE00A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92A171C27D49E00A2EB85 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		1EE92A181C27D49E00A2EB85 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		1EE92A1E1C27DC0C00A2EB85 /* ARC的使用特点及注意事项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ARC的使用特点及注意事项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92A201C27DC0C00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92A251C27DC2400A2EB85 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1EE92A261C27DC2400A2EB85 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1EE92A2C1C27E26E00A2EB85 /* 10-MRC转ARC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-MRC转ARC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92A2E1C27E26E00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92A371C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-ARC兼容非ARC的类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92A391C27E2CA00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92A3E1C27E94C00A2EB85 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1EE92A3F1C27E94C00A2EB85 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1EE92A401C27E94C00A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92A411C27E94C00A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92A441C27E99300A2EB85 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1EE92A451C27E99300A2EB85 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1EE92A471C27EBD900A2EB85 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1EE92A481C27EBD900A2EB85 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1EE92A491C27EBD900A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92A4A1C27EBD900A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92A511C27F26800A2EB85 /* 12-分类的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-分类的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92A531C27F26900A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92A581C27F4F900A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92A591C27F4F900A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92A5B1C2841AC00A2EB85 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		1EE92A5C1C2841AC00A2EB85 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		1EE92AA01C2920B700A2EB85 /* Person+playGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+playGame.h"; sourceTree = "<group>"; };
+		1EE92AA11C2920B700A2EB85 /* Person+playGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+playGame.m"; sourceTree = "<group>"; };
+		1EE92AB21C2922C100A2EB85 /* 13-分类的使用注意事项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-分类的使用注意事项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92AB91C2922FB00A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92ABA1C2922FB00A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92ABC1C29257A00A2EB85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92AC21C292AAD00A2EB85 /* 14-非正式协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-非正式协议"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92AC41C292AAD00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92AC91C29A74C00A2EB85 /* NSObject+Eat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Eat.h"; sourceTree = "<group>"; };
+		1EE92ACA1C29A74C00A2EB85 /* NSObject+Eat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Eat.m"; sourceTree = "<group>"; };
+		1EE92ACC1C29A77E00A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92ACD1C29A77E00A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92AD31C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-统计一个字符串中阿拉伯数字的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92AD51C29A8CE00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92ADA1C29A8EA00A2EB85 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		1EE92ADB1C29A8EA00A2EB85 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		1EE92AE11C2A5EE000A2EB85 /* 16-分类的延展 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-分类的延展"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92AE31C2A5EE000A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE92AE81C2A69CC00A2EB85 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EE92AE91C2A69CC00A2EB85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EE92AEB1C2A6B8200A2EB85 /* Person_Eat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person_Eat.h; sourceTree = "<group>"; };
+		1EE92AF01C2A6F2E00A2EB85 /* 17-块语法的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17-块语法的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE92AF21C2A6F2E00A2EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBE3F9A1C269AE20032CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283771C27823100EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283881C2789BA00EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283961C278F8A00EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283A11C2797F400EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283AF1C279EB800EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283BD1C27BB4D00EF45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A071C27CFDE00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A1B1C27DC0C00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A291C27E26E00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A341C27E2CA00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A4E1C27F26800A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92AAF1C2922C100A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92ABF1C292AAD00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92AD01C29A8CE00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92ADE1C2A5EE000A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92AED1C2A6F2E00A2EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBE3F941C269AE10032CA90 = {
+			isa = PBXGroup;
+			children = (
+				1EBE3F9F1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */,
+				1EE2837B1C27823100EF45C4 /* 02-autoreleasepool的使用场景 */,
+				1EE2838C1C2789BA00EF45C4 /* 03-学生类练习 */,
+				1EE2839A1C278F8A00EF45C4 /* 04-ARC的概念和原理 */,
+				1EE283A51C2797F400EF45C4 /* 05-ARC快速入门 */,
+				1EE283B31C279EB800EF45C4 /* 06-ARC下的单内存管理 */,
+				1EE283C11C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */,
+				1EE92A0B1C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */,
+				1EE92A1F1C27DC0C00A2EB85 /* 09-ARC的使用特点及注意事项 */,
+				1EE92A2D1C27E26E00A2EB85 /* 10-MRC转ARC */,
+				1EE92A381C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */,
+				1EE92A521C27F26900A2EB85 /* 12-分类的基本使用 */,
+				1EE92AB31C2922C100A2EB85 /* 13-分类的使用注意事项 */,
+				1EE92AC31C292AAD00A2EB85 /* 14-非正式协议 */,
+				1EE92AD41C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */,
+				1EE92AE21C2A5EE000A2EB85 /* 16-分类的延展 */,
+				1EE92AF11C2A6F2E00A2EB85 /* 17-块语法的基本使用 */,
+				1EBE3F9E1C269AE20032CA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBE3F9E1C269AE20032CA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE3F9D1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */,
+				1EE2837A1C27823100EF45C4 /* 02-autoreleasepool的使用场景 */,
+				1EE2838B1C2789BA00EF45C4 /* 03-学生类练习 */,
+				1EE283991C278F8A00EF45C4 /* 04-ARC的概念和原理 */,
+				1EE283A41C2797F400EF45C4 /* 05-ARC快速入门 */,
+				1EE283B21C279EB800EF45C4 /* 06-ARC下的单内存管理 */,
+				1EE283C01C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */,
+				1EE92A0A1C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */,
+				1EE92A1E1C27DC0C00A2EB85 /* ARC的使用特点及注意事项 */,
+				1EE92A2C1C27E26E00A2EB85 /* 10-MRC转ARC */,
+				1EE92A371C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */,
+				1EE92A511C27F26800A2EB85 /* 12-分类的基本使用 */,
+				1EE92AB21C2922C100A2EB85 /* 13-分类的使用注意事项 */,
+				1EE92AC21C292AAD00A2EB85 /* 14-非正式协议 */,
+				1EE92AD31C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */,
+				1EE92AE11C2A5EE000A2EB85 /* 16-分类的延展 */,
+				1EE92AF01C2A6F2E00A2EB85 /* 17-块语法的基本使用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBE3F9F1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE3FA01C269AE20032CA90 /* main.m */,
+				1EBE3FA71C269CE90032CA90 /* Person.h */,
+				1EBE3FA81C269CE90032CA90 /* Person.m */,
+			);
+			path = "01-autoreleasepool的基本使用补充";
+			sourceTree = "<group>";
+		};
+		1EE2837B1C27823100EF45C4 /* 02-autoreleasepool的使用场景 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2837C1C27823100EF45C4 /* main.m */,
+				1EE283811C27829800EF45C4 /* Person.h */,
+				1EE283821C27829800EF45C4 /* Person.m */,
+				1EE283841C27858D00EF45C4 /* Student.h */,
+				1EE283851C27858D00EF45C4 /* Student.m */,
+			);
+			path = "02-autoreleasepool的使用场景";
+			sourceTree = "<group>";
+		};
+		1EE2838C1C2789BA00EF45C4 /* 03-学生类练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2838D1C2789BA00EF45C4 /* main.m */,
+				1EE283921C2789DB00EF45C4 /* Student.h */,
+				1EE283931C2789DB00EF45C4 /* Student.m */,
+			);
+			path = "03-学生类练习";
+			sourceTree = "<group>";
+		};
+		1EE2839A1C278F8A00EF45C4 /* 04-ARC的概念和原理 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2839B1C278F8A00EF45C4 /* main.m */,
+			);
+			path = "04-ARC的概念和原理";
+			sourceTree = "<group>";
+		};
+		1EE283A51C2797F400EF45C4 /* 05-ARC快速入门 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE283A61C2797F400EF45C4 /* main.m */,
+				1EE283AB1C27986400EF45C4 /* Dog.h */,
+				1EE283AC1C27986400EF45C4 /* Dog.m */,
+			);
+			path = "05-ARC快速入门";
+			sourceTree = "<group>";
+		};
+		1EE283B31C279EB800EF45C4 /* 06-ARC下的单内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE283B41C279EB800EF45C4 /* main.m */,
+				1EE283B91C27A07200EF45C4 /* Car.h */,
+				1EE283BA1C27A07200EF45C4 /* Car.m */,
+			);
+			path = "06-ARC下的单内存管理";
+			sourceTree = "<group>";
+		};
+		1EE283C11C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE283C21C27BB4D00EF45C4 /* main.m */,
+				1EE283C71C27BB7000EF45C4 /* Person.h */,
+				1EE283C81C27BB7000EF45C4 /* Person.m */,
+				1EE283CA1C27BB7800EF45C4 /* Dog.h */,
+				1EE283CB1C27BB7800EF45C4 /* Dog.m */,
+			);
+			path = "07-ARC下多个对象的内存管理";
+			sourceTree = "<group>";
+		};
+		1EE92A0B1C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92A0C1C27CFDE00A2EB85 /* main.m */,
+				1EE92A111C27CFEE00A2EB85 /* Person.h */,
+				1EE92A121C27CFEE00A2EB85 /* Person.m */,
+				1EE92A171C27D49E00A2EB85 /* Dog.h */,
+				1EE92A181C27D49E00A2EB85 /* Dog.m */,
+			);
+			path = "08-ARC下的循环引用问题";
+			sourceTree = "<group>";
+		};
+		1EE92A1F1C27DC0C00A2EB85 /* 09-ARC的使用特点及注意事项 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92A201C27DC0C00A2EB85 /* main.m */,
+				1EE92A251C27DC2400A2EB85 /* Student.h */,
+				1EE92A261C27DC2400A2EB85 /* Student.m */,
+			);
+			name = "09-ARC的使用特点及注意事项";
+			path = "ARC的使用特点及注意事项";
+			sourceTree = "<group>";
+		};
+		1EE92A2D1C27E26E00A2EB85 /* 10-MRC转ARC */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92A471C27EBD900A2EB85 /* Car.h */,
+				1EE92A481C27EBD900A2EB85 /* Car.m */,
+				1EE92A491C27EBD900A2EB85 /* Person.h */,
+				1EE92A4A1C27EBD900A2EB85 /* Person.m */,
+				1EE92A2E1C27E26E00A2EB85 /* main.m */,
+			);
+			path = "10-MRC转ARC";
+			sourceTree = "<group>";
+		};
+		1EE92A381C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92A391C27E2CA00A2EB85 /* main.m */,
+				1EE92A3E1C27E94C00A2EB85 /* Car.h */,
+				1EE92A3F1C27E94C00A2EB85 /* Car.m */,
+				1EE92A401C27E94C00A2EB85 /* Person.h */,
+				1EE92A411C27E94C00A2EB85 /* Person.m */,
+				1EE92A441C27E99300A2EB85 /* Student.h */,
+				1EE92A451C27E99300A2EB85 /* Student.m */,
+			);
+			path = "11-ARC兼容非ARC的类";
+			sourceTree = "<group>";
+		};
+		1EE92A521C27F26900A2EB85 /* 12-分类的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92A531C27F26900A2EB85 /* main.m */,
+				1EE92A581C27F4F900A2EB85 /* Person.h */,
+				1EE92A591C27F4F900A2EB85 /* Person.m */,
+				1EE92A5B1C2841AC00A2EB85 /* NSString+Extension.h */,
+				1EE92A5C1C2841AC00A2EB85 /* NSString+Extension.m */,
+				1EE92AA01C2920B700A2EB85 /* Person+playGame.h */,
+				1EE92AA11C2920B700A2EB85 /* Person+playGame.m */,
+			);
+			path = "12-分类的基本使用";
+			sourceTree = "<group>";
+		};
+		1EE92AB31C2922C100A2EB85 /* 13-分类的使用注意事项 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92ABC1C29257A00A2EB85 /* main.m */,
+				1EE92AB91C2922FB00A2EB85 /* Person.h */,
+				1EE92ABA1C2922FB00A2EB85 /* Person.m */,
+			);
+			path = "13-分类的使用注意事项";
+			sourceTree = "<group>";
+		};
+		1EE92AC31C292AAD00A2EB85 /* 14-非正式协议 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92AC41C292AAD00A2EB85 /* main.m */,
+				1EE92AC91C29A74C00A2EB85 /* NSObject+Eat.h */,
+				1EE92ACA1C29A74C00A2EB85 /* NSObject+Eat.m */,
+				1EE92ACC1C29A77E00A2EB85 /* Person.h */,
+				1EE92ACD1C29A77E00A2EB85 /* Person.m */,
+			);
+			path = "14-非正式协议";
+			sourceTree = "<group>";
+		};
+		1EE92AD41C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92AD51C29A8CE00A2EB85 /* main.m */,
+				1EE92ADA1C29A8EA00A2EB85 /* NSString+Extension.h */,
+				1EE92ADB1C29A8EA00A2EB85 /* NSString+Extension.m */,
+			);
+			path = "15-统计一个字符串中阿拉伯数字的个数";
+			sourceTree = "<group>";
+		};
+		1EE92AE21C2A5EE000A2EB85 /* 16-分类的延展 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92AE31C2A5EE000A2EB85 /* main.m */,
+				1EE92AE81C2A69CC00A2EB85 /* Person.h */,
+				1EE92AE91C2A69CC00A2EB85 /* Person.m */,
+				1EE92AEB1C2A6B8200A2EB85 /* Person_Eat.h */,
+			);
+			path = "16-分类的延展";
+			sourceTree = "<group>";
+		};
+		1EE92AF11C2A6F2E00A2EB85 /* 17-块语法的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE92AF21C2A6F2E00A2EB85 /* main.m */,
+			);
+			path = "17-块语法的基本使用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBE3F9C1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE3FA41C269AE20032CA90 /* Build configuration list for PBXNativeTarget "01-autoreleasepool的基本使用补充" */;
+			buildPhases = (
+				1EBE3F991C269AE20032CA90 /* Sources */,
+				1EBE3F9A1C269AE20032CA90 /* Frameworks */,
+				1EBE3F9B1C269AE20032CA90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-autoreleasepool的基本使用补充";
+			productName = "01-autoreleasepool的基本使用补充";
+			productReference = 1EBE3F9D1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE283791C27823100EF45C4 /* 02-autoreleasepool的使用场景 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE283801C27823100EF45C4 /* Build configuration list for PBXNativeTarget "02-autoreleasepool的使用场景" */;
+			buildPhases = (
+				1EE283761C27823100EF45C4 /* Sources */,
+				1EE283771C27823100EF45C4 /* Frameworks */,
+				1EE283781C27823100EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-autoreleasepool的使用场景";
+			productName = "02-autoreleasepool的使用场景";
+			productReference = 1EE2837A1C27823100EF45C4 /* 02-autoreleasepool的使用场景 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE2838A1C2789BA00EF45C4 /* 03-学生类练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE2838F1C2789BA00EF45C4 /* Build configuration list for PBXNativeTarget "03-学生类练习" */;
+			buildPhases = (
+				1EE283871C2789BA00EF45C4 /* Sources */,
+				1EE283881C2789BA00EF45C4 /* Frameworks */,
+				1EE283891C2789BA00EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-学生类练习";
+			productName = "03-学生类练习";
+			productReference = 1EE2838B1C2789BA00EF45C4 /* 03-学生类练习 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE283981C278F8A00EF45C4 /* 04-ARC的概念和原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE2839D1C278F8A00EF45C4 /* Build configuration list for PBXNativeTarget "04-ARC的概念和原理" */;
+			buildPhases = (
+				1EE283951C278F8A00EF45C4 /* Sources */,
+				1EE283961C278F8A00EF45C4 /* Frameworks */,
+				1EE283971C278F8A00EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-ARC的概念和原理";
+			productName = "04-ARC的概念和原理";
+			productReference = 1EE283991C278F8A00EF45C4 /* 04-ARC的概念和原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE283A31C2797F400EF45C4 /* 05-ARC快速入门 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE283A81C2797F400EF45C4 /* Build configuration list for PBXNativeTarget "05-ARC快速入门" */;
+			buildPhases = (
+				1EE283A01C2797F400EF45C4 /* Sources */,
+				1EE283A11C2797F400EF45C4 /* Frameworks */,
+				1EE283A21C2797F400EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-ARC快速入门";
+			productName = "05-ARC快速入门";
+			productReference = 1EE283A41C2797F400EF45C4 /* 05-ARC快速入门 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE283B11C279EB800EF45C4 /* 06-ARC下的单内存管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE283B61C279EB800EF45C4 /* Build configuration list for PBXNativeTarget "06-ARC下的单内存管理" */;
+			buildPhases = (
+				1EE283AE1C279EB800EF45C4 /* Sources */,
+				1EE283AF1C279EB800EF45C4 /* Frameworks */,
+				1EE283B01C279EB800EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-ARC下的单内存管理";
+			productName = "06-ARC下的单内存管理";
+			productReference = 1EE283B21C279EB800EF45C4 /* 06-ARC下的单内存管理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE283BF1C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE283C41C27BB4D00EF45C4 /* Build configuration list for PBXNativeTarget "07-ARC下多个对象的内存管理" */;
+			buildPhases = (
+				1EE283BC1C27BB4D00EF45C4 /* Sources */,
+				1EE283BD1C27BB4D00EF45C4 /* Frameworks */,
+				1EE283BE1C27BB4D00EF45C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-ARC下多个对象的内存管理";
+			productName = "07-ARC下多个对象的内存管理";
+			productReference = 1EE283C01C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92A091C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92A101C27CFDE00A2EB85 /* Build configuration list for PBXNativeTarget "08-ARC下的循环引用问题" */;
+			buildPhases = (
+				1EE92A061C27CFDE00A2EB85 /* Sources */,
+				1EE92A071C27CFDE00A2EB85 /* Frameworks */,
+				1EE92A081C27CFDE00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-ARC下的循环引用问题";
+			productName = "08-ARC下的循环引用问题";
+			productReference = 1EE92A0A1C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92A1D1C27DC0C00A2EB85 /* ARC的使用特点及注意事项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92A221C27DC0C00A2EB85 /* Build configuration list for PBXNativeTarget "ARC的使用特点及注意事项" */;
+			buildPhases = (
+				1EE92A1A1C27DC0C00A2EB85 /* Sources */,
+				1EE92A1B1C27DC0C00A2EB85 /* Frameworks */,
+				1EE92A1C1C27DC0C00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARC的使用特点及注意事项";
+			productName = "ARC的使用特点及注意事项";
+			productReference = 1EE92A1E1C27DC0C00A2EB85 /* ARC的使用特点及注意事项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92A2B1C27E26E00A2EB85 /* 10-MRC转ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92A301C27E26E00A2EB85 /* Build configuration list for PBXNativeTarget "10-MRC转ARC" */;
+			buildPhases = (
+				1EE92A281C27E26E00A2EB85 /* Sources */,
+				1EE92A291C27E26E00A2EB85 /* Frameworks */,
+				1EE92A2A1C27E26E00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-MRC转ARC";
+			productName = "10-MRC转ARC";
+			productReference = 1EE92A2C1C27E26E00A2EB85 /* 10-MRC转ARC */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92A361C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92A3B1C27E2CA00A2EB85 /* Build configuration list for PBXNativeTarget "11-ARC兼容非ARC的类" */;
+			buildPhases = (
+				1EE92A331C27E2CA00A2EB85 /* Sources */,
+				1EE92A341C27E2CA00A2EB85 /* Frameworks */,
+				1EE92A351C27E2CA00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-ARC兼容非ARC的类";
+			productName = "11-ARC兼容非ARC的类";
+			productReference = 1EE92A371C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92A501C27F26800A2EB85 /* 12-分类的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92A551C27F26900A2EB85 /* Build configuration list for PBXNativeTarget "12-分类的基本使用" */;
+			buildPhases = (
+				1EE92A4D1C27F26800A2EB85 /* Sources */,
+				1EE92A4E1C27F26800A2EB85 /* Frameworks */,
+				1EE92A4F1C27F26800A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-分类的基本使用";
+			productName = "12-分类的基本使用";
+			productReference = 1EE92A511C27F26800A2EB85 /* 12-分类的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92AB11C2922C100A2EB85 /* 13-分类的使用注意事项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92AB61C2922C100A2EB85 /* Build configuration list for PBXNativeTarget "13-分类的使用注意事项" */;
+			buildPhases = (
+				1EE92AAE1C2922C100A2EB85 /* Sources */,
+				1EE92AAF1C2922C100A2EB85 /* Frameworks */,
+				1EE92AB01C2922C100A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-分类的使用注意事项";
+			productName = "13-分类的使用注意事项";
+			productReference = 1EE92AB21C2922C100A2EB85 /* 13-分类的使用注意事项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92AC11C292AAD00A2EB85 /* 14-非正式协议 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92AC61C292AAD00A2EB85 /* Build configuration list for PBXNativeTarget "14-非正式协议" */;
+			buildPhases = (
+				1EE92ABE1C292AAD00A2EB85 /* Sources */,
+				1EE92ABF1C292AAD00A2EB85 /* Frameworks */,
+				1EE92AC01C292AAD00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-非正式协议";
+			productName = "14-非正式协议";
+			productReference = 1EE92AC21C292AAD00A2EB85 /* 14-非正式协议 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92AD21C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92AD71C29A8CE00A2EB85 /* Build configuration list for PBXNativeTarget "15-统计一个字符串中阿拉伯数字的个数" */;
+			buildPhases = (
+				1EE92ACF1C29A8CE00A2EB85 /* Sources */,
+				1EE92AD01C29A8CE00A2EB85 /* Frameworks */,
+				1EE92AD11C29A8CE00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-统计一个字符串中阿拉伯数字的个数";
+			productName = "15-统计一个字符串中阿拉伯数字的个数";
+			productReference = 1EE92AD31C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92AE01C2A5EE000A2EB85 /* 16-分类的延展 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92AE51C2A5EE000A2EB85 /* Build configuration list for PBXNativeTarget "16-分类的延展" */;
+			buildPhases = (
+				1EE92ADD1C2A5EE000A2EB85 /* Sources */,
+				1EE92ADE1C2A5EE000A2EB85 /* Frameworks */,
+				1EE92ADF1C2A5EE000A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-分类的延展";
+			productName = "16-分类的延展";
+			productReference = 1EE92AE11C2A5EE000A2EB85 /* 16-分类的延展 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE92AEF1C2A6F2E00A2EB85 /* 17-块语法的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE92AF41C2A6F2E00A2EB85 /* Build configuration list for PBXNativeTarget "17-块语法的基本使用" */;
+			buildPhases = (
+				1EE92AEC1C2A6F2E00A2EB85 /* Sources */,
+				1EE92AED1C2A6F2E00A2EB85 /* Frameworks */,
+				1EE92AEE1C2A6F2E00A2EB85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17-块语法的基本使用";
+			productName = "17-块语法的基本使用";
+			productReference = 1EE92AF01C2A6F2E00A2EB85 /* 17-块语法的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBE3F951C269AE10032CA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple.Inc;
+				TargetAttributes = {
+					1EBE3F9C1C269AE20032CA90 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE283791C27823100EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE2838A1C2789BA00EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE283981C278F8A00EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE283A31C2797F400EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE283B11C279EB800EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE283BF1C27BB4D00EF45C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92A091C27CFDE00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92A1D1C27DC0C00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92A2B1C27E26E00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92A361C27E2CA00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92A501C27F26800A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92AB11C2922C100A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92AC11C292AAD00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92AD21C29A8CE00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92AE01C2A5EE000A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1EE92AEF1C2A6F2E00A2EB85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EBE3F981C269AE10032CA90 /* Build configuration list for PBXProject "01-autoreleasepool的基本使用补充" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EBE3F941C269AE10032CA90;
+			productRefGroup = 1EBE3F9E1C269AE20032CA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBE3F9C1C269AE20032CA90 /* 01-autoreleasepool的基本使用补充 */,
+				1EE283791C27823100EF45C4 /* 02-autoreleasepool的使用场景 */,
+				1EE2838A1C2789BA00EF45C4 /* 03-学生类练习 */,
+				1EE283981C278F8A00EF45C4 /* 04-ARC的概念和原理 */,
+				1EE283A31C2797F400EF45C4 /* 05-ARC快速入门 */,
+				1EE283B11C279EB800EF45C4 /* 06-ARC下的单内存管理 */,
+				1EE283BF1C27BB4D00EF45C4 /* 07-ARC下多个对象的内存管理 */,
+				1EE92A091C27CFDE00A2EB85 /* 08-ARC下的循环引用问题 */,
+				1EE92A1D1C27DC0C00A2EB85 /* ARC的使用特点及注意事项 */,
+				1EE92A2B1C27E26E00A2EB85 /* 10-MRC转ARC */,
+				1EE92A361C27E2CA00A2EB85 /* 11-ARC兼容非ARC的类 */,
+				1EE92A501C27F26800A2EB85 /* 12-分类的基本使用 */,
+				1EE92AB11C2922C100A2EB85 /* 13-分类的使用注意事项 */,
+				1EE92AC11C292AAD00A2EB85 /* 14-非正式协议 */,
+				1EE92AD21C29A8CE00A2EB85 /* 15-统计一个字符串中阿拉伯数字的个数 */,
+				1EE92AE01C2A5EE000A2EB85 /* 16-分类的延展 */,
+				1EE92AEF1C2A6F2E00A2EB85 /* 17-块语法的基本使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBE3F991C269AE20032CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE3FA91C269CE90032CA90 /* Person.m in Sources */,
+				1EBE3FA11C269AE20032CA90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283761C27823100EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE283831C27829800EF45C4 /* Person.m in Sources */,
+				1EE2837D1C27823100EF45C4 /* main.m in Sources */,
+				1EE283861C27858D00EF45C4 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283871C2789BA00EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE2838E1C2789BA00EF45C4 /* main.m in Sources */,
+				1EE283941C2789DB00EF45C4 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283951C278F8A00EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE2839C1C278F8A00EF45C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283A01C2797F400EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE283AD1C27986400EF45C4 /* Dog.m in Sources */,
+				1EE283A71C2797F400EF45C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283AE1C279EB800EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE283BB1C27A07200EF45C4 /* Car.m in Sources */,
+				1EE283B51C279EB800EF45C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE283BC1C27BB4D00EF45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE283CC1C27BB7800EF45C4 /* Dog.m in Sources */,
+				1EE283C91C27BB7000EF45C4 /* Person.m in Sources */,
+				1EE283C31C27BB4D00EF45C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A061C27CFDE00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92A191C27D49E00A2EB85 /* Dog.m in Sources */,
+				1EE92A131C27CFEE00A2EB85 /* Person.m in Sources */,
+				1EE92A0D1C27CFDE00A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A1A1C27DC0C00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92A211C27DC0C00A2EB85 /* main.m in Sources */,
+				1EE92A271C27DC2400A2EB85 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A281C27E26E00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92A4C1C27EBD900A2EB85 /* Person.m in Sources */,
+				1EE92A4B1C27EBD900A2EB85 /* Car.m in Sources */,
+				1EE92A2F1C27E26E00A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A331C27E2CA00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92A431C27E94C00A2EB85 /* Person.m in Sources */,
+				1EE92A421C27E94C00A2EB85 /* Car.m in Sources */,
+				1EE92A3A1C27E2CA00A2EB85 /* main.m in Sources */,
+				1EE92A461C27E99300A2EB85 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92A4D1C27F26800A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92A5A1C27F4F900A2EB85 /* Person.m in Sources */,
+				1EE92A5D1C2841AC00A2EB85 /* NSString+Extension.m in Sources */,
+				1EE92AA21C2920B700A2EB85 /* Person+playGame.m in Sources */,
+				1EE92A541C27F26900A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92AAE1C2922C100A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92ABD1C29257A00A2EB85 /* main.m in Sources */,
+				1EE92ABB1C2922FB00A2EB85 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92ABE1C292AAD00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92ACE1C29A77E00A2EB85 /* Person.m in Sources */,
+				1EE92ACB1C29A74C00A2EB85 /* NSObject+Eat.m in Sources */,
+				1EE92AC51C292AAD00A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92ACF1C29A8CE00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92AD61C29A8CE00A2EB85 /* main.m in Sources */,
+				1EE92ADC1C29A8EA00A2EB85 /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92ADD1C2A5EE000A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92AEA1C2A69CC00A2EB85 /* Person.m in Sources */,
+				1EE92AE41C2A5EE000A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE92AEC1C2A6F2E00A2EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE92AF31C2A6F2E00A2EB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EBE3FA21C269AE20032CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1EBE3FA31C269AE20032CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EBE3FA51C269AE20032CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EBE3FA61C269AE20032CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE2837E1C27823100EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE2837F1C27823100EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE283901C2789BA00EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE283911C2789BA00EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE2839E1C278F8A00EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE2839F1C278F8A00EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE283A91C2797F400EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE283AA1C2797F400EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE283B71C279EB800EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE283B81C279EB800EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE283C51C27BB4D00EF45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE283C61C27BB4D00EF45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92A0E1C27CFDE00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92A0F1C27CFDE00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92A231C27DC0C00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92A241C27DC0C00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92A311C27E26E00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92A321C27E26E00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92A3C1C27E2CA00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92A3D1C27E2CA00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92A561C27F26900A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92A571C27F26900A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92AB71C2922C100A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92AB81C2922C100A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92AC71C292AAD00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92AC81C292AAD00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92AD81C29A8CE00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92AD91C29A8CE00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92AE61C2A5EE000A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92AE71C2A5EE000A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EE92AF51C2A6F2E00A2EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE92AF61C2A6F2E00A2EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBE3F981C269AE10032CA90 /* Build configuration list for PBXProject "01-autoreleasepool的基本使用补充" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE3FA21C269AE20032CA90 /* Debug */,
+				1EBE3FA31C269AE20032CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE3FA41C269AE20032CA90 /* Build configuration list for PBXNativeTarget "01-autoreleasepool的基本使用补充" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE3FA51C269AE20032CA90 /* Debug */,
+				1EBE3FA61C269AE20032CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE283801C27823100EF45C4 /* Build configuration list for PBXNativeTarget "02-autoreleasepool的使用场景" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE2837E1C27823100EF45C4 /* Debug */,
+				1EE2837F1C27823100EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE2838F1C2789BA00EF45C4 /* Build configuration list for PBXNativeTarget "03-学生类练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE283901C2789BA00EF45C4 /* Debug */,
+				1EE283911C2789BA00EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE2839D1C278F8A00EF45C4 /* Build configuration list for PBXNativeTarget "04-ARC的概念和原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE2839E1C278F8A00EF45C4 /* Debug */,
+				1EE2839F1C278F8A00EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE283A81C2797F400EF45C4 /* Build configuration list for PBXNativeTarget "05-ARC快速入门" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE283A91C2797F400EF45C4 /* Debug */,
+				1EE283AA1C2797F400EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE283B61C279EB800EF45C4 /* Build configuration list for PBXNativeTarget "06-ARC下的单内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE283B71C279EB800EF45C4 /* Debug */,
+				1EE283B81C279EB800EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE283C41C27BB4D00EF45C4 /* Build configuration list for PBXNativeTarget "07-ARC下多个对象的内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE283C51C27BB4D00EF45C4 /* Debug */,
+				1EE283C61C27BB4D00EF45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92A101C27CFDE00A2EB85 /* Build configuration list for PBXNativeTarget "08-ARC下的循环引用问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92A0E1C27CFDE00A2EB85 /* Debug */,
+				1EE92A0F1C27CFDE00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92A221C27DC0C00A2EB85 /* Build configuration list for PBXNativeTarget "ARC的使用特点及注意事项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92A231C27DC0C00A2EB85 /* Debug */,
+				1EE92A241C27DC0C00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92A301C27E26E00A2EB85 /* Build configuration list for PBXNativeTarget "10-MRC转ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92A311C27E26E00A2EB85 /* Debug */,
+				1EE92A321C27E26E00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92A3B1C27E2CA00A2EB85 /* Build configuration list for PBXNativeTarget "11-ARC兼容非ARC的类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92A3C1C27E2CA00A2EB85 /* Debug */,
+				1EE92A3D1C27E2CA00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92A551C27F26900A2EB85 /* Build configuration list for PBXNativeTarget "12-分类的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92A561C27F26900A2EB85 /* Debug */,
+				1EE92A571C27F26900A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE92AB61C2922C100A2EB85 /* Build configuration list for PBXNativeTarget "13-分类的使用注意事项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92AB71C2922C100A2EB85 /* Debug */,
+				1EE92AB81C2922C100A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EE92AC61C292AAD00A2EB85 /* Build configuration list for PBXNativeTarget "14-非正式协议" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92AC71C292AAD00A2EB85 /* Debug */,
+				1EE92AC81C292AAD00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EE92AD71C29A8CE00A2EB85 /* Build configuration list for PBXNativeTarget "15-统计一个字符串中阿拉伯数字的个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92AD81C29A8CE00A2EB85 /* Debug */,
+				1EE92AD91C29A8CE00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EE92AE51C2A5EE000A2EB85 /* Build configuration list for PBXNativeTarget "16-分类的延展" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92AE61C2A5EE000A2EB85 /* Debug */,
+				1EE92AE71C2A5EE000A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EE92AF41C2A6F2E00A2EB85 /* Build configuration list for PBXNativeTarget "17-块语法的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE92AF51C2A6F2E00A2EB85 /* Debug */,
+				1EE92AF61C2A6F2E00A2EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBE3F951C269AE10032CA90 /* Project object */;
+}

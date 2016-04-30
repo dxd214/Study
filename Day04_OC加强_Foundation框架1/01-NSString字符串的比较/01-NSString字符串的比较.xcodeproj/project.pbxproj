@@ -1,0 +1,1700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96229B731C2DA06C004C2FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96229B721C2DA06C004C2FD0 /* main.m */; };
+		96229B7E1C2DB0FC004C2FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96229B7D1C2DB0FC004C2FD0 /* main.m */; };
+		962EDE9C1C312448001D7F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDE9B1C312448001D7F28 /* main.m */; };
+		962EDEA71C313579001D7F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDEA61C313579001D7F28 /* main.m */; };
+		962EDEB21C3147EE001D7F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDEB11C3147EE001D7F28 /* main.m */; };
+		964C45621C30C92A00EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C45611C30C92A00EF7A13 /* main.m */; };
+		964C456D1C30CED300EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C456C1C30CED300EF7A13 /* main.m */; };
+		964C45781C30D8FE00EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C45771C30D8FE00EF7A13 /* main.m */; };
+		964C45831C310CFC00EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C45821C310CFC00EF7A13 /* main.m */; };
+		964C458E1C31108D00EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C458D1C31108D00EF7A13 /* main.m */; };
+		964C45991C311A7A00EF7A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964C45981C311A7A00EF7A13 /* main.m */; };
+		9666BE201C2D2594004D511E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9666BE1F1C2D2594004D511E /* main.m */; };
+		9666BE2D1C2D3029004D511E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9666BE2C1C2D3029004D511E /* main.m */; };
+		96A275B21C3155860098877D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A275B11C3155860098877D /* main.m */; };
+		96A275BD1C31595E0098877D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A275BC1C31595E0098877D /* main.m */; };
+		96A275C81C3163900098877D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A275C71C3163900098877D /* main.m */; };
+		96D3DC3F1C2D5BA100F167A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D3DC3E1C2D5BA100F167A9 /* main.m */; };
+		96D3DC4A1C2D67B800F167A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D3DC491C2D67B800F167A9 /* main.m */; };
+		96D3DC551C2D84E100F167A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D3DC541C2D84E100F167A9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96229B6E1C2DA06C004C2FD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96229B791C2DB0FC004C2FD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		962EDE971C312448001D7F28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		962EDEA21C313579001D7F28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		962EDEAD1C3147EE001D7F28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C455D1C30C92A00EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C45681C30CED300EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C45731C30D8FE00EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C457E1C310CFC00EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C45891C31108D00EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		964C45941C311A7A00EF7A13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9666BE1A1C2D2594004D511E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9666BE281C2D3029004D511E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96A275AD1C3155860098877D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96A275B81C31595E0098877D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96A275C31C3163900098877D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96D3DC3A1C2D5BA100F167A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96D3DC451C2D67B800F167A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		96D3DC501C2D84E100F167A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96229B701C2DA06C004C2FD0 /* 06-NSString的其他用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-NSString的其他用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96229B721C2DA06C004C2FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96229B7B1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-NSMutableString的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96229B7D1C2DB0FC004C2FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962EDE991C312448001D7F28 /* 14-NSMutableArray的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-NSMutableArray的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962EDE9B1C312448001D7F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962EDEA41C313579001D7F28 /* 15-NSDictionary的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-NSDictionary的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962EDEA61C313579001D7F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962EDEAF1C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-NSDictionary的简写及文件操作"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962EDEB11C3147EE001D7F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C455F1C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-NSMutableString的常用方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C45611C30C92A00EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C456A1C30CED300EF7A13 /* 09-NSArray的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-NSArray的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C456C1C30CED300EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C45751C30D8FE00EF7A13 /* 10-NSArray的常见用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-NSArray的常见用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C45771C30D8FE00EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C45801C310CFC00EF7A13 /* 11-NSArray的遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-NSArray的遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C45821C310CFC00EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C458B1C31108D00EF7A13 /* 12-NSArray读写文件 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-NSArray读写文件"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C458D1C31108D00EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964C45961C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-NSArray与NSString的关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964C45981C311A7A00EF7A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9666BE1C1C2D2594004D511E /* 01-NSString字符串的比较 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-NSString字符串的比较"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666BE1F1C2D2594004D511E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9666BE2A1C2D3029004D511E /* 02-NSString字符串比较补充 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-NSString字符串比较补充"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666BE2C1C2D3029004D511E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A275AF1C3155860098877D /* 17-NSMutableDictionary的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17-NSMutableDictionary的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A275B11C3155860098877D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A275BA1C31595E0098877D /* 18-NSString的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-NSString的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A275BC1C31595E0098877D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A275C51C3163900098877D /* 19-使用NSURL读取字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-使用NSURL读取字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A275C71C3163900098877D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96D3DC3C1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-NSString前后缀检查及搜索"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D3DC3E1C2D5BA100F167A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96D3DC471C2D67B800F167A9 /* 04-NSRange的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-NSRange的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D3DC491C2D67B800F167A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96D3DC521C2D84E100F167A9 /* 05-字符串的截取和替换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-字符串的截取和替换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D3DC541C2D84E100F167A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96229B6D1C2DA06C004C2FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96229B781C2DB0FC004C2FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDE961C312448001D7F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDEA11C313579001D7F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDEAC1C3147EE001D7F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C455C1C30C92A00EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45671C30CED300EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45721C30D8FE00EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C457D1C310CFC00EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45881C31108D00EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45931C311A7A00EF7A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666BE191C2D2594004D511E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666BE271C2D3029004D511E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275AC1C3155860098877D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275B71C31595E0098877D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275C21C3163900098877D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC391C2D5BA100F167A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC441C2D67B800F167A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC4F1C2D84E100F167A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96229B711C2DA06C004C2FD0 /* 06-NSString的其他用法 */ = {
+			isa = PBXGroup;
+			children = (
+				96229B721C2DA06C004C2FD0 /* main.m */,
+			);
+			path = "06-NSString的其他用法";
+			sourceTree = "<group>";
+		};
+		96229B7C1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				96229B7D1C2DB0FC004C2FD0 /* main.m */,
+			);
+			path = "07-NSMutableString的基本使用";
+			sourceTree = "<group>";
+		};
+		962EDE9A1C312448001D7F28 /* 14-NSMutableArray的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				962EDE9B1C312448001D7F28 /* main.m */,
+			);
+			path = "14-NSMutableArray的使用";
+			sourceTree = "<group>";
+		};
+		962EDEA51C313579001D7F28 /* 15-NSDictionary的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				962EDEA61C313579001D7F28 /* main.m */,
+			);
+			path = "15-NSDictionary的基本使用";
+			sourceTree = "<group>";
+		};
+		962EDEB01C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */ = {
+			isa = PBXGroup;
+			children = (
+				962EDEB11C3147EE001D7F28 /* main.m */,
+			);
+			path = "16-NSDictionary的简写及文件操作";
+			sourceTree = "<group>";
+		};
+		964C45601C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				964C45611C30C92A00EF7A13 /* main.m */,
+			);
+			path = "08-NSMutableString的常用方法";
+			sourceTree = "<group>";
+		};
+		964C456B1C30CED300EF7A13 /* 09-NSArray的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				964C456C1C30CED300EF7A13 /* main.m */,
+			);
+			path = "09-NSArray的基本使用";
+			sourceTree = "<group>";
+		};
+		964C45761C30D8FE00EF7A13 /* 10-NSArray的常见用法 */ = {
+			isa = PBXGroup;
+			children = (
+				964C45771C30D8FE00EF7A13 /* main.m */,
+			);
+			path = "10-NSArray的常见用法";
+			sourceTree = "<group>";
+		};
+		964C45811C310CFC00EF7A13 /* 11-NSArray的遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				964C45821C310CFC00EF7A13 /* main.m */,
+			);
+			path = "11-NSArray的遍历";
+			sourceTree = "<group>";
+		};
+		964C458C1C31108D00EF7A13 /* 12-NSArray读写文件 */ = {
+			isa = PBXGroup;
+			children = (
+				964C458D1C31108D00EF7A13 /* main.m */,
+			);
+			path = "12-NSArray读写文件";
+			sourceTree = "<group>";
+		};
+		964C45971C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */ = {
+			isa = PBXGroup;
+			children = (
+				964C45981C311A7A00EF7A13 /* main.m */,
+			);
+			path = "13-NSArray与NSString的关系";
+			sourceTree = "<group>";
+		};
+		9666BE131C2D2594004D511E = {
+			isa = PBXGroup;
+			children = (
+				9666BE1E1C2D2594004D511E /* 01-NSString字符串的比较 */,
+				9666BE2B1C2D3029004D511E /* 02-NSString字符串比较补充 */,
+				96D3DC3D1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */,
+				96D3DC481C2D67B800F167A9 /* 04-NSRange的使用 */,
+				96D3DC531C2D84E100F167A9 /* 05-字符串的截取和替换 */,
+				96229B711C2DA06C004C2FD0 /* 06-NSString的其他用法 */,
+				96229B7C1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */,
+				964C45601C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */,
+				964C456B1C30CED300EF7A13 /* 09-NSArray的基本使用 */,
+				964C45761C30D8FE00EF7A13 /* 10-NSArray的常见用法 */,
+				964C45811C310CFC00EF7A13 /* 11-NSArray的遍历 */,
+				964C458C1C31108D00EF7A13 /* 12-NSArray读写文件 */,
+				964C45971C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */,
+				962EDE9A1C312448001D7F28 /* 14-NSMutableArray的使用 */,
+				962EDEA51C313579001D7F28 /* 15-NSDictionary的基本使用 */,
+				962EDEB01C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */,
+				96A275B01C3155860098877D /* 17-NSMutableDictionary的基本使用 */,
+				96A275BB1C31595E0098877D /* 18-NSString的基本使用 */,
+				96A275C61C3163900098877D /* 19-使用NSURL读取字符串 */,
+				9666BE1D1C2D2594004D511E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9666BE1D1C2D2594004D511E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9666BE1C1C2D2594004D511E /* 01-NSString字符串的比较 */,
+				9666BE2A1C2D3029004D511E /* 02-NSString字符串比较补充 */,
+				96D3DC3C1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */,
+				96D3DC471C2D67B800F167A9 /* 04-NSRange的使用 */,
+				96D3DC521C2D84E100F167A9 /* 05-字符串的截取和替换 */,
+				96229B701C2DA06C004C2FD0 /* 06-NSString的其他用法 */,
+				96229B7B1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */,
+				964C455F1C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */,
+				964C456A1C30CED300EF7A13 /* 09-NSArray的基本使用 */,
+				964C45751C30D8FE00EF7A13 /* 10-NSArray的常见用法 */,
+				964C45801C310CFC00EF7A13 /* 11-NSArray的遍历 */,
+				964C458B1C31108D00EF7A13 /* 12-NSArray读写文件 */,
+				964C45961C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */,
+				962EDE991C312448001D7F28 /* 14-NSMutableArray的使用 */,
+				962EDEA41C313579001D7F28 /* 15-NSDictionary的基本使用 */,
+				962EDEAF1C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */,
+				96A275AF1C3155860098877D /* 17-NSMutableDictionary的基本使用 */,
+				96A275BA1C31595E0098877D /* 18-NSString的基本使用 */,
+				96A275C51C3163900098877D /* 19-使用NSURL读取字符串 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9666BE1E1C2D2594004D511E /* 01-NSString字符串的比较 */ = {
+			isa = PBXGroup;
+			children = (
+				9666BE1F1C2D2594004D511E /* main.m */,
+			);
+			path = "01-NSString字符串的比较";
+			sourceTree = "<group>";
+		};
+		9666BE2B1C2D3029004D511E /* 02-NSString字符串比较补充 */ = {
+			isa = PBXGroup;
+			children = (
+				9666BE2C1C2D3029004D511E /* main.m */,
+			);
+			path = "02-NSString字符串比较补充";
+			sourceTree = "<group>";
+		};
+		96A275B01C3155860098877D /* 17-NSMutableDictionary的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				96A275B11C3155860098877D /* main.m */,
+			);
+			path = "17-NSMutableDictionary的基本使用";
+			sourceTree = "<group>";
+		};
+		96A275BB1C31595E0098877D /* 18-NSString的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				96A275BC1C31595E0098877D /* main.m */,
+			);
+			path = "18-NSString的基本使用";
+			sourceTree = "<group>";
+		};
+		96A275C61C3163900098877D /* 19-使用NSURL读取字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				96A275C71C3163900098877D /* main.m */,
+			);
+			path = "19-使用NSURL读取字符串";
+			sourceTree = "<group>";
+		};
+		96D3DC3D1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				96D3DC3E1C2D5BA100F167A9 /* main.m */,
+			);
+			path = "03-NSString前后缀检查及搜索";
+			sourceTree = "<group>";
+		};
+		96D3DC481C2D67B800F167A9 /* 04-NSRange的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				96D3DC491C2D67B800F167A9 /* main.m */,
+			);
+			path = "04-NSRange的使用";
+			sourceTree = "<group>";
+		};
+		96D3DC531C2D84E100F167A9 /* 05-字符串的截取和替换 */ = {
+			isa = PBXGroup;
+			children = (
+				96D3DC541C2D84E100F167A9 /* main.m */,
+			);
+			path = "05-字符串的截取和替换";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96229B6F1C2DA06C004C2FD0 /* 06-NSString的其他用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96229B761C2DA06C004C2FD0 /* Build configuration list for PBXNativeTarget "06-NSString的其他用法" */;
+			buildPhases = (
+				96229B6C1C2DA06C004C2FD0 /* Sources */,
+				96229B6D1C2DA06C004C2FD0 /* Frameworks */,
+				96229B6E1C2DA06C004C2FD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-NSString的其他用法";
+			productName = "06-NSString的其他用法";
+			productReference = 96229B701C2DA06C004C2FD0 /* 06-NSString的其他用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96229B7A1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96229B7F1C2DB0FC004C2FD0 /* Build configuration list for PBXNativeTarget "07-NSMutableString的基本使用" */;
+			buildPhases = (
+				96229B771C2DB0FC004C2FD0 /* Sources */,
+				96229B781C2DB0FC004C2FD0 /* Frameworks */,
+				96229B791C2DB0FC004C2FD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-NSMutableString的基本使用";
+			productName = "07-NSMutableString的基本使用";
+			productReference = 96229B7B1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		962EDE981C312448001D7F28 /* 14-NSMutableArray的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962EDE9F1C312448001D7F28 /* Build configuration list for PBXNativeTarget "14-NSMutableArray的使用" */;
+			buildPhases = (
+				962EDE951C312448001D7F28 /* Sources */,
+				962EDE961C312448001D7F28 /* Frameworks */,
+				962EDE971C312448001D7F28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-NSMutableArray的使用";
+			productName = "14-NSMutableArray的使用";
+			productReference = 962EDE991C312448001D7F28 /* 14-NSMutableArray的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		962EDEA31C313579001D7F28 /* 15-NSDictionary的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962EDEA81C313579001D7F28 /* Build configuration list for PBXNativeTarget "15-NSDictionary的基本使用" */;
+			buildPhases = (
+				962EDEA01C313579001D7F28 /* Sources */,
+				962EDEA11C313579001D7F28 /* Frameworks */,
+				962EDEA21C313579001D7F28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-NSDictionary的基本使用";
+			productName = "15-NSDictionary的基本使用";
+			productReference = 962EDEA41C313579001D7F28 /* 15-NSDictionary的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		962EDEAE1C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962EDEB31C3147EE001D7F28 /* Build configuration list for PBXNativeTarget "16-NSDictionary的简写及文件操作" */;
+			buildPhases = (
+				962EDEAB1C3147EE001D7F28 /* Sources */,
+				962EDEAC1C3147EE001D7F28 /* Frameworks */,
+				962EDEAD1C3147EE001D7F28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-NSDictionary的简写及文件操作";
+			productName = "16-NSDictionary的简写及文件操作";
+			productReference = 962EDEAF1C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C455E1C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C45651C30C92A00EF7A13 /* Build configuration list for PBXNativeTarget "08-NSMutableString的常用方法" */;
+			buildPhases = (
+				964C455B1C30C92A00EF7A13 /* Sources */,
+				964C455C1C30C92A00EF7A13 /* Frameworks */,
+				964C455D1C30C92A00EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-NSMutableString的常用方法";
+			productName = "08-NSMutableString的常用方法";
+			productReference = 964C455F1C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C45691C30CED300EF7A13 /* 09-NSArray的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C456E1C30CED300EF7A13 /* Build configuration list for PBXNativeTarget "09-NSArray的基本使用" */;
+			buildPhases = (
+				964C45661C30CED300EF7A13 /* Sources */,
+				964C45671C30CED300EF7A13 /* Frameworks */,
+				964C45681C30CED300EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-NSArray的基本使用";
+			productName = "09-NSArray的基本使用";
+			productReference = 964C456A1C30CED300EF7A13 /* 09-NSArray的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C45741C30D8FE00EF7A13 /* 10-NSArray的常见用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C45791C30D8FE00EF7A13 /* Build configuration list for PBXNativeTarget "10-NSArray的常见用法" */;
+			buildPhases = (
+				964C45711C30D8FE00EF7A13 /* Sources */,
+				964C45721C30D8FE00EF7A13 /* Frameworks */,
+				964C45731C30D8FE00EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-NSArray的常见用法";
+			productName = "10-NSArray的常见用法";
+			productReference = 964C45751C30D8FE00EF7A13 /* 10-NSArray的常见用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C457F1C310CFC00EF7A13 /* 11-NSArray的遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C45841C310CFC00EF7A13 /* Build configuration list for PBXNativeTarget "11-NSArray的遍历" */;
+			buildPhases = (
+				964C457C1C310CFC00EF7A13 /* Sources */,
+				964C457D1C310CFC00EF7A13 /* Frameworks */,
+				964C457E1C310CFC00EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-NSArray的遍历";
+			productName = "11-NSArray的遍历";
+			productReference = 964C45801C310CFC00EF7A13 /* 11-NSArray的遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C458A1C31108D00EF7A13 /* 12-NSArray读写文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C458F1C31108D00EF7A13 /* Build configuration list for PBXNativeTarget "12-NSArray读写文件" */;
+			buildPhases = (
+				964C45871C31108D00EF7A13 /* Sources */,
+				964C45881C31108D00EF7A13 /* Frameworks */,
+				964C45891C31108D00EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-NSArray读写文件";
+			productName = "12-NSArray读写文件";
+			productReference = 964C458B1C31108D00EF7A13 /* 12-NSArray读写文件 */;
+			productType = "com.apple.product-type.tool";
+		};
+		964C45951C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964C459A1C311A7A00EF7A13 /* Build configuration list for PBXNativeTarget "13-NSArray与NSString的关系" */;
+			buildPhases = (
+				964C45921C311A7A00EF7A13 /* Sources */,
+				964C45931C311A7A00EF7A13 /* Frameworks */,
+				964C45941C311A7A00EF7A13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-NSArray与NSString的关系";
+			productName = "13-NSArray与NSString的关系";
+			productReference = 964C45961C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9666BE1B1C2D2594004D511E /* 01-NSString字符串的比较 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9666BE231C2D2594004D511E /* Build configuration list for PBXNativeTarget "01-NSString字符串的比较" */;
+			buildPhases = (
+				9666BE181C2D2594004D511E /* Sources */,
+				9666BE191C2D2594004D511E /* Frameworks */,
+				9666BE1A1C2D2594004D511E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-NSString字符串的比较";
+			productName = "01-NSString字符串的比较";
+			productReference = 9666BE1C1C2D2594004D511E /* 01-NSString字符串的比较 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9666BE291C2D3029004D511E /* 02-NSString字符串比较补充 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9666BE2E1C2D3029004D511E /* Build configuration list for PBXNativeTarget "02-NSString字符串比较补充" */;
+			buildPhases = (
+				9666BE261C2D3029004D511E /* Sources */,
+				9666BE271C2D3029004D511E /* Frameworks */,
+				9666BE281C2D3029004D511E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-NSString字符串比较补充";
+			productName = "02-NSString字符串比较补充";
+			productReference = 9666BE2A1C2D3029004D511E /* 02-NSString字符串比较补充 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96A275AE1C3155860098877D /* 17-NSMutableDictionary的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A275B51C3155860098877D /* Build configuration list for PBXNativeTarget "17-NSMutableDictionary的基本使用" */;
+			buildPhases = (
+				96A275AB1C3155860098877D /* Sources */,
+				96A275AC1C3155860098877D /* Frameworks */,
+				96A275AD1C3155860098877D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17-NSMutableDictionary的基本使用";
+			productName = "17-NSMutableDictionary的基本使用";
+			productReference = 96A275AF1C3155860098877D /* 17-NSMutableDictionary的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96A275B91C31595E0098877D /* 18-NSString的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A275BE1C31595E0098877D /* Build configuration list for PBXNativeTarget "18-NSString的基本使用" */;
+			buildPhases = (
+				96A275B61C31595E0098877D /* Sources */,
+				96A275B71C31595E0098877D /* Frameworks */,
+				96A275B81C31595E0098877D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-NSString的基本使用";
+			productName = "18-NSString的基本使用";
+			productReference = 96A275BA1C31595E0098877D /* 18-NSString的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96A275C41C3163900098877D /* 19-使用NSURL读取字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A275C91C3163900098877D /* Build configuration list for PBXNativeTarget "19-使用NSURL读取字符串" */;
+			buildPhases = (
+				96A275C11C3163900098877D /* Sources */,
+				96A275C21C3163900098877D /* Frameworks */,
+				96A275C31C3163900098877D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-使用NSURL读取字符串";
+			productName = "19-使用NSURL读取字符串";
+			productReference = 96A275C51C3163900098877D /* 19-使用NSURL读取字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96D3DC3B1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D3DC421C2D5BA100F167A9 /* Build configuration list for PBXNativeTarget "03-NSString前后缀检查及搜索" */;
+			buildPhases = (
+				96D3DC381C2D5BA100F167A9 /* Sources */,
+				96D3DC391C2D5BA100F167A9 /* Frameworks */,
+				96D3DC3A1C2D5BA100F167A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-NSString前后缀检查及搜索";
+			productName = "03-NSString前后缀检查及搜索";
+			productReference = 96D3DC3C1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96D3DC461C2D67B800F167A9 /* 04-NSRange的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D3DC4B1C2D67B800F167A9 /* Build configuration list for PBXNativeTarget "04-NSRange的使用" */;
+			buildPhases = (
+				96D3DC431C2D67B800F167A9 /* Sources */,
+				96D3DC441C2D67B800F167A9 /* Frameworks */,
+				96D3DC451C2D67B800F167A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-NSRange的使用";
+			productName = "04-NSRange的使用";
+			productReference = 96D3DC471C2D67B800F167A9 /* 04-NSRange的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		96D3DC511C2D84E100F167A9 /* 05-字符串的截取和替换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D3DC561C2D84E100F167A9 /* Build configuration list for PBXNativeTarget "05-字符串的截取和替换" */;
+			buildPhases = (
+				96D3DC4E1C2D84E100F167A9 /* Sources */,
+				96D3DC4F1C2D84E100F167A9 /* Frameworks */,
+				96D3DC501C2D84E100F167A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-字符串的截取和替换";
+			productName = "05-字符串的截取和替换";
+			productReference = 96D3DC521C2D84E100F167A9 /* 05-字符串的截取和替换 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9666BE141C2D2594004D511E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple.Inc;
+				TargetAttributes = {
+					96229B6F1C2DA06C004C2FD0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96229B7A1C2DB0FC004C2FD0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					962EDE981C312448001D7F28 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					962EDEA31C313579001D7F28 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					962EDEAE1C3147EE001D7F28 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C455E1C30C92A00EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C45691C30CED300EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C45741C30D8FE00EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C457F1C310CFC00EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C458A1C31108D00EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					964C45951C311A7A00EF7A13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9666BE1B1C2D2594004D511E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9666BE291C2D3029004D511E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96A275AE1C3155860098877D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96A275B91C31595E0098877D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96A275C41C3163900098877D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96D3DC3B1C2D5BA100F167A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96D3DC461C2D67B800F167A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96D3DC511C2D84E100F167A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9666BE171C2D2594004D511E /* Build configuration list for PBXProject "01-NSString字符串的比较" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9666BE131C2D2594004D511E;
+			productRefGroup = 9666BE1D1C2D2594004D511E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9666BE1B1C2D2594004D511E /* 01-NSString字符串的比较 */,
+				9666BE291C2D3029004D511E /* 02-NSString字符串比较补充 */,
+				96D3DC3B1C2D5BA100F167A9 /* 03-NSString前后缀检查及搜索 */,
+				96D3DC461C2D67B800F167A9 /* 04-NSRange的使用 */,
+				96D3DC511C2D84E100F167A9 /* 05-字符串的截取和替换 */,
+				96229B6F1C2DA06C004C2FD0 /* 06-NSString的其他用法 */,
+				96229B7A1C2DB0FC004C2FD0 /* 07-NSMutableString的基本使用 */,
+				964C455E1C30C92A00EF7A13 /* 08-NSMutableString的常用方法 */,
+				964C45691C30CED300EF7A13 /* 09-NSArray的基本使用 */,
+				964C45741C30D8FE00EF7A13 /* 10-NSArray的常见用法 */,
+				964C457F1C310CFC00EF7A13 /* 11-NSArray的遍历 */,
+				964C458A1C31108D00EF7A13 /* 12-NSArray读写文件 */,
+				964C45951C311A7A00EF7A13 /* 13-NSArray与NSString的关系 */,
+				962EDE981C312448001D7F28 /* 14-NSMutableArray的使用 */,
+				962EDEA31C313579001D7F28 /* 15-NSDictionary的基本使用 */,
+				962EDEAE1C3147EE001D7F28 /* 16-NSDictionary的简写及文件操作 */,
+				96A275AE1C3155860098877D /* 17-NSMutableDictionary的基本使用 */,
+				96A275B91C31595E0098877D /* 18-NSString的基本使用 */,
+				96A275C41C3163900098877D /* 19-使用NSURL读取字符串 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96229B6C1C2DA06C004C2FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96229B731C2DA06C004C2FD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96229B771C2DB0FC004C2FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96229B7E1C2DB0FC004C2FD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDE951C312448001D7F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962EDE9C1C312448001D7F28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDEA01C313579001D7F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962EDEA71C313579001D7F28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EDEAB1C3147EE001D7F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962EDEB21C3147EE001D7F28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C455B1C30C92A00EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C45621C30C92A00EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45661C30CED300EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C456D1C30CED300EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45711C30D8FE00EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C45781C30D8FE00EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C457C1C310CFC00EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C45831C310CFC00EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45871C31108D00EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C458E1C31108D00EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964C45921C311A7A00EF7A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C45991C311A7A00EF7A13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666BE181C2D2594004D511E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9666BE201C2D2594004D511E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666BE261C2D3029004D511E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9666BE2D1C2D3029004D511E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275AB1C3155860098877D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A275B21C3155860098877D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275B61C31595E0098877D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A275BD1C31595E0098877D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A275C11C3163900098877D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A275C81C3163900098877D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC381C2D5BA100F167A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D3DC3F1C2D5BA100F167A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC431C2D67B800F167A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D3DC4A1C2D67B800F167A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D3DC4E1C2D84E100F167A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D3DC551C2D84E100F167A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96229B741C2DA06C004C2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96229B751C2DA06C004C2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96229B801C2DB0FC004C2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96229B811C2DB0FC004C2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		962EDE9D1C312448001D7F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962EDE9E1C312448001D7F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		962EDEA91C313579001D7F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962EDEAA1C313579001D7F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		962EDEB41C3147EE001D7F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962EDEB51C3147EE001D7F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C45631C30C92A00EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C45641C30C92A00EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C456F1C30CED300EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C45701C30CED300EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C457A1C30D8FE00EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C457B1C30D8FE00EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C45851C310CFC00EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C45861C310CFC00EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C45901C31108D00EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C45911C31108D00EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964C459B1C311A7A00EF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964C459C1C311A7A00EF7A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9666BE211C2D2594004D511E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9666BE221C2D2594004D511E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9666BE241C2D2594004D511E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9666BE251C2D2594004D511E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9666BE2F1C2D3029004D511E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9666BE301C2D3029004D511E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96A275B31C3155860098877D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96A275B41C3155860098877D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96A275BF1C31595E0098877D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96A275C01C31595E0098877D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96A275CA1C3163900098877D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96A275CB1C3163900098877D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96D3DC401C2D5BA100F167A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96D3DC411C2D5BA100F167A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96D3DC4C1C2D67B800F167A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96D3DC4D1C2D67B800F167A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96D3DC571C2D84E100F167A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96D3DC581C2D84E100F167A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96229B761C2DA06C004C2FD0 /* Build configuration list for PBXNativeTarget "06-NSString的其他用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96229B741C2DA06C004C2FD0 /* Debug */,
+				96229B751C2DA06C004C2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96229B7F1C2DB0FC004C2FD0 /* Build configuration list for PBXNativeTarget "07-NSMutableString的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96229B801C2DB0FC004C2FD0 /* Debug */,
+				96229B811C2DB0FC004C2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962EDE9F1C312448001D7F28 /* Build configuration list for PBXNativeTarget "14-NSMutableArray的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962EDE9D1C312448001D7F28 /* Debug */,
+				962EDE9E1C312448001D7F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962EDEA81C313579001D7F28 /* Build configuration list for PBXNativeTarget "15-NSDictionary的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962EDEA91C313579001D7F28 /* Debug */,
+				962EDEAA1C313579001D7F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962EDEB31C3147EE001D7F28 /* Build configuration list for PBXNativeTarget "16-NSDictionary的简写及文件操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962EDEB41C3147EE001D7F28 /* Debug */,
+				962EDEB51C3147EE001D7F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C45651C30C92A00EF7A13 /* Build configuration list for PBXNativeTarget "08-NSMutableString的常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C45631C30C92A00EF7A13 /* Debug */,
+				964C45641C30C92A00EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C456E1C30CED300EF7A13 /* Build configuration list for PBXNativeTarget "09-NSArray的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C456F1C30CED300EF7A13 /* Debug */,
+				964C45701C30CED300EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C45791C30D8FE00EF7A13 /* Build configuration list for PBXNativeTarget "10-NSArray的常见用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C457A1C30D8FE00EF7A13 /* Debug */,
+				964C457B1C30D8FE00EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C45841C310CFC00EF7A13 /* Build configuration list for PBXNativeTarget "11-NSArray的遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C45851C310CFC00EF7A13 /* Debug */,
+				964C45861C310CFC00EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C458F1C31108D00EF7A13 /* Build configuration list for PBXNativeTarget "12-NSArray读写文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C45901C31108D00EF7A13 /* Debug */,
+				964C45911C31108D00EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964C459A1C311A7A00EF7A13 /* Build configuration list for PBXNativeTarget "13-NSArray与NSString的关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964C459B1C311A7A00EF7A13 /* Debug */,
+				964C459C1C311A7A00EF7A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666BE171C2D2594004D511E /* Build configuration list for PBXProject "01-NSString字符串的比较" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666BE211C2D2594004D511E /* Debug */,
+				9666BE221C2D2594004D511E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666BE231C2D2594004D511E /* Build configuration list for PBXNativeTarget "01-NSString字符串的比较" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666BE241C2D2594004D511E /* Debug */,
+				9666BE251C2D2594004D511E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666BE2E1C2D3029004D511E /* Build configuration list for PBXNativeTarget "02-NSString字符串比较补充" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666BE2F1C2D3029004D511E /* Debug */,
+				9666BE301C2D3029004D511E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A275B51C3155860098877D /* Build configuration list for PBXNativeTarget "17-NSMutableDictionary的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A275B31C3155860098877D /* Debug */,
+				96A275B41C3155860098877D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A275BE1C31595E0098877D /* Build configuration list for PBXNativeTarget "18-NSString的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A275BF1C31595E0098877D /* Debug */,
+				96A275C01C31595E0098877D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A275C91C3163900098877D /* Build configuration list for PBXNativeTarget "19-使用NSURL读取字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A275CA1C3163900098877D /* Debug */,
+				96A275CB1C3163900098877D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96D3DC421C2D5BA100F167A9 /* Build configuration list for PBXNativeTarget "03-NSString前后缀检查及搜索" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D3DC401C2D5BA100F167A9 /* Debug */,
+				96D3DC411C2D5BA100F167A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D3DC4B1C2D67B800F167A9 /* Build configuration list for PBXNativeTarget "04-NSRange的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D3DC4C1C2D67B800F167A9 /* Debug */,
+				96D3DC4D1C2D67B800F167A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D3DC561C2D84E100F167A9 /* Build configuration list for PBXNativeTarget "05-字符串的截取和替换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D3DC571C2D84E100F167A9 /* Debug */,
+				96D3DC581C2D84E100F167A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9666BE141C2D2594004D511E /* Project object */;
+}

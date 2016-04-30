@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController3">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9b-jc-SxI">
+                    <rect key="frame" x="237" y="283" width="126" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="返回到黄色界面">
+                        <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickToBackToYellowViewController" destination="-1" eventType="touchUpInside" id="M7q-Cu-IxL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5k-6i-FTq">
+                    <rect key="frame" x="237" y="351" width="126" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="返回到根控制器">
+                        <color key="titleColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickToBackToRootViewController" destination="-1" eventType="touchUpInside" id="s7R-PZ-XJW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRN-m9-kky">
+                    <rect key="frame" x="237.5" y="420" width="126" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="返回到指定界面">
+                        <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickToInToDesignatedViewController" destination="-1" eventType="touchUpInside" id="W6A-vE-ZdR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="wRN-m9-kky" firstAttribute="centerX" secondItem="v5k-6i-FTq" secondAttribute="centerX" id="7NT-Dt-p9q"/>
+                <constraint firstItem="wRN-m9-kky" firstAttribute="height" secondItem="v5k-6i-FTq" secondAttribute="height" id="Gne-JR-HFG"/>
+                <constraint firstItem="l9b-jc-SxI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TTB-HC-xAs"/>
+                <constraint firstItem="v5k-6i-FTq" firstAttribute="centerX" secondItem="l9b-jc-SxI" secondAttribute="centerX" id="XIR-gi-6vk"/>
+                <constraint firstItem="v5k-6i-FTq" firstAttribute="top" secondItem="l9b-jc-SxI" secondAttribute="bottom" constant="34" id="Xzz-vL-24S"/>
+                <constraint firstItem="v5k-6i-FTq" firstAttribute="width" secondItem="l9b-jc-SxI" secondAttribute="width" id="YvA-CJ-otZ"/>
+                <constraint firstItem="wRN-m9-kky" firstAttribute="width" secondItem="v5k-6i-FTq" secondAttribute="width" id="hus-eZ-twK"/>
+                <constraint firstItem="wRN-m9-kky" firstAttribute="top" secondItem="v5k-6i-FTq" secondAttribute="bottom" constant="35" id="ssh-FH-DLo"/>
+                <constraint firstItem="v5k-6i-FTq" firstAttribute="height" secondItem="l9b-jc-SxI" secondAttribute="height" id="utO-DE-Oxd"/>
+                <constraint firstItem="l9b-jc-SxI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vdh-cE-KJK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

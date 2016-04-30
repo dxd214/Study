@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E9C852D1C6C8F94001F1941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C852C1C6C8F94001F1941 /* main.m */; };
+		1E9C85301C6C8F94001F1941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C852F1C6C8F94001F1941 /* AppDelegate.m */; };
+		1E9C85331C6C8F94001F1941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C85321C6C8F94001F1941 /* ViewController.m */; };
+		1E9C85361C6C8F94001F1941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9C85341C6C8F94001F1941 /* Main.storyboard */; };
+		1E9C85381C6C8F94001F1941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9C85371C6C8F94001F1941 /* Assets.xcassets */; };
+		1E9C853B1C6C8F94001F1941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9C85391C6C8F94001F1941 /* LaunchScreen.storyboard */; };
+		1E9C85461C6C8F94001F1941 /* _4_Autolayout____view____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C85451C6C8F94001F1941 /* _4_Autolayout____view____Tests.m */; };
+		1E9C85511C6C8F94001F1941 /* _4_Autolayout____view____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C85501C6C8F94001F1941 /* _4_Autolayout____view____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E9C85421C6C8F94001F1941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E9C85201C6C8F93001F1941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9C85271C6C8F94001F1941;
+			remoteInfo = "04_Autolayout设置兄弟view间的约束";
+		};
+		1E9C854D1C6C8F94001F1941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E9C85201C6C8F93001F1941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9C85271C6C8F94001F1941;
+			remoteInfo = "04_Autolayout设置兄弟view间的约束";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9C85281C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04_Autolayout设置兄弟view间的约束.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9C852C1C6C8F94001F1941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E9C852E1C6C8F94001F1941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E9C852F1C6C8F94001F1941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E9C85311C6C8F94001F1941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E9C85321C6C8F94001F1941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E9C85351C6C8F94001F1941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E9C85371C6C8F94001F1941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E9C853A1C6C8F94001F1941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E9C853C1C6C8F94001F1941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9C85411C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04_Autolayout设置兄弟view间的约束Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9C85451C6C8F94001F1941 /* _4_Autolayout____view____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_Autolayout____view____Tests.m"; sourceTree = "<group>"; };
+		1E9C85471C6C8F94001F1941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9C854C1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04_Autolayout设置兄弟view间的约束UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9C85501C6C8F94001F1941 /* _4_Autolayout____view____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_Autolayout____view____UITests.m"; sourceTree = "<group>"; };
+		1E9C85521C6C8F94001F1941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E9C85251C6C8F94001F1941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C853E1C6C8F94001F1941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C85491C6C8F94001F1941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9C851F1C6C8F93001F1941 = {
+			isa = PBXGroup;
+			children = (
+				1E9C852A1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */,
+				1E9C85441C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests */,
+				1E9C854F1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests */,
+				1E9C85291C6C8F94001F1941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E9C85291C6C8F94001F1941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C85281C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束.app */,
+				1E9C85411C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests.xctest */,
+				1E9C854C1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E9C852A1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C852E1C6C8F94001F1941 /* AppDelegate.h */,
+				1E9C852F1C6C8F94001F1941 /* AppDelegate.m */,
+				1E9C85311C6C8F94001F1941 /* ViewController.h */,
+				1E9C85321C6C8F94001F1941 /* ViewController.m */,
+				1E9C85341C6C8F94001F1941 /* Main.storyboard */,
+				1E9C85371C6C8F94001F1941 /* Assets.xcassets */,
+				1E9C85391C6C8F94001F1941 /* LaunchScreen.storyboard */,
+				1E9C853C1C6C8F94001F1941 /* Info.plist */,
+				1E9C852B1C6C8F94001F1941 /* Supporting Files */,
+			);
+			path = "04_Autolayout设置兄弟view间的约束";
+			sourceTree = "<group>";
+		};
+		1E9C852B1C6C8F94001F1941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C852C1C6C8F94001F1941 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E9C85441C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C85451C6C8F94001F1941 /* _4_Autolayout____view____Tests.m */,
+				1E9C85471C6C8F94001F1941 /* Info.plist */,
+			);
+			path = "04_Autolayout设置兄弟view间的约束Tests";
+			sourceTree = "<group>";
+		};
+		1E9C854F1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C85501C6C8F94001F1941 /* _4_Autolayout____view____UITests.m */,
+				1E9C85521C6C8F94001F1941 /* Info.plist */,
+			);
+			path = "04_Autolayout设置兄弟view间的约束UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E9C85271C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9C85551C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束" */;
+			buildPhases = (
+				1E9C85241C6C8F94001F1941 /* Sources */,
+				1E9C85251C6C8F94001F1941 /* Frameworks */,
+				1E9C85261C6C8F94001F1941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04_Autolayout设置兄弟view间的约束";
+			productName = "04_Autolayout设置兄弟view间的约束";
+			productReference = 1E9C85281C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E9C85401C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9C85581C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束Tests" */;
+			buildPhases = (
+				1E9C853D1C6C8F94001F1941 /* Sources */,
+				1E9C853E1C6C8F94001F1941 /* Frameworks */,
+				1E9C853F1C6C8F94001F1941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9C85431C6C8F94001F1941 /* PBXTargetDependency */,
+			);
+			name = "04_Autolayout设置兄弟view间的约束Tests";
+			productName = "04_Autolayout设置兄弟view间的约束Tests";
+			productReference = 1E9C85411C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E9C854B1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9C855B1C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束UITests" */;
+			buildPhases = (
+				1E9C85481C6C8F94001F1941 /* Sources */,
+				1E9C85491C6C8F94001F1941 /* Frameworks */,
+				1E9C854A1C6C8F94001F1941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9C854E1C6C8F94001F1941 /* PBXTargetDependency */,
+			);
+			name = "04_Autolayout设置兄弟view间的约束UITests";
+			productName = "04_Autolayout设置兄弟view间的约束UITests";
+			productReference = 1E9C854C1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E9C85201C6C8F93001F1941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple.Inc;
+				TargetAttributes = {
+					1E9C85271C6C8F94001F1941 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1E9C85401C6C8F94001F1941 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E9C85271C6C8F94001F1941;
+					};
+					1E9C854B1C6C8F94001F1941 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E9C85271C6C8F94001F1941;
+					};
+				};
+			};
+			buildConfigurationList = 1E9C85231C6C8F93001F1941 /* Build configuration list for PBXProject "04_Autolayout设置兄弟view间的约束" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E9C851F1C6C8F93001F1941;
+			productRefGroup = 1E9C85291C6C8F94001F1941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E9C85271C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */,
+				1E9C85401C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束Tests */,
+				1E9C854B1C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E9C85261C6C8F94001F1941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9C853B1C6C8F94001F1941 /* LaunchScreen.storyboard in Resources */,
+				1E9C85381C6C8F94001F1941 /* Assets.xcassets in Resources */,
+				1E9C85361C6C8F94001F1941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C853F1C6C8F94001F1941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C854A1C6C8F94001F1941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E9C85241C6C8F94001F1941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9C85331C6C8F94001F1941 /* ViewController.m in Sources */,
+				1E9C85301C6C8F94001F1941 /* AppDelegate.m in Sources */,
+				1E9C852D1C6C8F94001F1941 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C853D1C6C8F94001F1941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9C85461C6C8F94001F1941 /* _4_Autolayout____view____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9C85481C6C8F94001F1941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9C85511C6C8F94001F1941 /* _4_Autolayout____view____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E9C85431C6C8F94001F1941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E9C85271C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */;
+			targetProxy = 1E9C85421C6C8F94001F1941 /* PBXContainerItemProxy */;
+		};
+		1E9C854E1C6C8F94001F1941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E9C85271C6C8F94001F1941 /* 04_Autolayout设置兄弟view间的约束 */;
+			targetProxy = 1E9C854D1C6C8F94001F1941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E9C85341C6C8F94001F1941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E9C85351C6C8F94001F1941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E9C85391C6C8F94001F1941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E9C853A1C6C8F94001F1941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E9C85531C6C8F94001F1941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E9C85541C6C8F94001F1941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E9C85561C6C8F94001F1941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E9C85571C6C8F94001F1941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E9C85591C6C8F94001F1941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04_Autolayout设置兄弟view间的约束.app/04_Autolayout设置兄弟view间的约束";
+			};
+			name = Debug;
+		};
+		1E9C855A1C6C8F94001F1941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04_Autolayout设置兄弟view间的约束.app/04_Autolayout设置兄弟view间的约束";
+			};
+			name = Release;
+		};
+		1E9C855C1C6C8F94001F1941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04_Autolayout设置兄弟view间的约束";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E9C855D1C6C8F94001F1941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04_Autolayout设置兄弟view间的约束UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-4-Autolayout----view----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04_Autolayout设置兄弟view间的约束";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E9C85231C6C8F93001F1941 /* Build configuration list for PBXProject "04_Autolayout设置兄弟view间的约束" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9C85531C6C8F94001F1941 /* Debug */,
+				1E9C85541C6C8F94001F1941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E9C85551C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9C85561C6C8F94001F1941 /* Debug */,
+				1E9C85571C6C8F94001F1941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E9C85581C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9C85591C6C8F94001F1941 /* Debug */,
+				1E9C855A1C6C8F94001F1941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E9C855B1C6C8F94001F1941 /* Build configuration list for PBXNativeTarget "04_Autolayout设置兄弟view间的约束UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9C855C1C6C8F94001F1941 /* Debug */,
+				1E9C855D1C6C8F94001F1941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E9C85201C6C8F93001F1941 /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home_refresh_bg" translatesAutoresizingMaskIntoConstraints="NO" id="TYY-Dl-2kg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yAC-Li-IlJ">
+                                <rect key="frame" x="225" y="40" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ljn-4G-Q8D"/>
+                                    <constraint firstAttribute="width" constant="150" id="yCc-4j-LUx"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YtY-tY-jAa" customClass="UnlockView">
+                                <rect key="frame" x="150" y="270" width="300" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="5Ap-tN-t2F"/>
+                                    <constraint firstAttribute="height" constant="300" id="tgK-7j-TcG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YtY-tY-jAa" firstAttribute="top" secondItem="yAC-Li-IlJ" secondAttribute="bottom" constant="80" id="0ij-gj-cZQ"/>
+                            <constraint firstAttribute="bottom" secondItem="TYY-Dl-2kg" secondAttribute="bottom" id="2yo-8e-LzB"/>
+                            <constraint firstItem="TYY-Dl-2kg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EQi-UM-Udn"/>
+                            <constraint firstItem="TYY-Dl-2kg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FNh-yF-Ia3"/>
+                            <constraint firstItem="yAC-Li-IlJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y9H-E8-Wtf"/>
+                            <constraint firstAttribute="trailing" secondItem="TYY-Dl-2kg" secondAttribute="trailing" id="ecM-ed-VUV"/>
+                            <constraint firstItem="YtY-tY-jAa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kqW-sx-ovA"/>
+                            <constraint firstItem="yAC-Li-IlJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="unk-DA-f4D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="yAC-Li-IlJ" id="oAP-ar-mR7"/>
+                        <outlet property="unlockView" destination="YtY-tY-jAa" id="LLY-rV-VLE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Home_refresh_bg" width="640" height="1008"/>
+    </resources>
+</document>

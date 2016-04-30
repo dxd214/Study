@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E80FA641C8EA82F002155D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA631C8EA82F002155D3 /* main.m */; };
+		1E80FA671C8EA82F002155D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA661C8EA82F002155D3 /* AppDelegate.m */; };
+		1E80FA6A1C8EA82F002155D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA691C8EA82F002155D3 /* ViewController.m */; };
+		1E80FA6D1C8EA82F002155D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA6B1C8EA82F002155D3 /* Main.storyboard */; };
+		1E80FA6F1C8EA82F002155D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA6E1C8EA82F002155D3 /* Assets.xcassets */; };
+		1E80FA721C8EA82F002155D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA701C8EA82F002155D3 /* LaunchScreen.storyboard */; };
+		1E80FA7D1C8EA82F002155D3 /* _8_NSSet_NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA7C1C8EA82F002155D3 /* _8_NSSet_NSArrayTests.m */; };
+		1E80FA881C8EA82F002155D3 /* _8_NSSet_NSArrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA871C8EA82F002155D3 /* _8_NSSet_NSArrayUITests.m */; };
+		1E80FA971C8EA8EF002155D3 /* JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA961C8EA8EF002155D3 /* JDView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E80FA791C8EA82F002155D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E80FA571C8EA82F002155D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E80FA5E1C8EA82F002155D3;
+			remoteInfo = "08_NSSet和NSArray";
+		};
+		1E80FA841C8EA82F002155D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E80FA571C8EA82F002155D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E80FA5E1C8EA82F002155D3;
+			remoteInfo = "08_NSSet和NSArray";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E80FA5F1C8EA82F002155D3 /* 08_NSSet和NSArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08_NSSet和NSArray.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80FA631C8EA82F002155D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E80FA651C8EA82F002155D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E80FA661C8EA82F002155D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E80FA681C8EA82F002155D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E80FA691C8EA82F002155D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E80FA6C1C8EA82F002155D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E80FA6E1C8EA82F002155D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E80FA711C8EA82F002155D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E80FA731C8EA82F002155D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E80FA781C8EA82F002155D3 /* 08_NSSet和NSArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08_NSSet和NSArrayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80FA7C1C8EA82F002155D3 /* _8_NSSet_NSArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_NSSet_NSArrayTests.m; sourceTree = "<group>"; };
+		1E80FA7E1C8EA82F002155D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E80FA831C8EA82F002155D3 /* 08_NSSet和NSArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08_NSSet和NSArrayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80FA871C8EA82F002155D3 /* _8_NSSet_NSArrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_NSSet_NSArrayUITests.m; sourceTree = "<group>"; };
+		1E80FA891C8EA82F002155D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E80FA951C8EA8EF002155D3 /* JDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDView.h; sourceTree = "<group>"; };
+		1E80FA961C8EA8EF002155D3 /* JDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E80FA5C1C8EA82F002155D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA751C8EA82F002155D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA801C8EA82F002155D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E80FA561C8EA82F002155D3 = {
+			isa = PBXGroup;
+			children = (
+				1E80FA611C8EA82F002155D3 /* 08_NSSet和NSArray */,
+				1E80FA7B1C8EA82F002155D3 /* 08_NSSet和NSArrayTests */,
+				1E80FA861C8EA82F002155D3 /* 08_NSSet和NSArrayUITests */,
+				1E80FA601C8EA82F002155D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E80FA601C8EA82F002155D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA5F1C8EA82F002155D3 /* 08_NSSet和NSArray.app */,
+				1E80FA781C8EA82F002155D3 /* 08_NSSet和NSArrayTests.xctest */,
+				1E80FA831C8EA82F002155D3 /* 08_NSSet和NSArrayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E80FA611C8EA82F002155D3 /* 08_NSSet和NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA651C8EA82F002155D3 /* AppDelegate.h */,
+				1E80FA661C8EA82F002155D3 /* AppDelegate.m */,
+				1E80FA681C8EA82F002155D3 /* ViewController.h */,
+				1E80FA691C8EA82F002155D3 /* ViewController.m */,
+				1E80FA951C8EA8EF002155D3 /* JDView.h */,
+				1E80FA961C8EA8EF002155D3 /* JDView.m */,
+				1E80FA6B1C8EA82F002155D3 /* Main.storyboard */,
+				1E80FA6E1C8EA82F002155D3 /* Assets.xcassets */,
+				1E80FA701C8EA82F002155D3 /* LaunchScreen.storyboard */,
+				1E80FA731C8EA82F002155D3 /* Info.plist */,
+				1E80FA621C8EA82F002155D3 /* Supporting Files */,
+			);
+			path = "08_NSSet和NSArray";
+			sourceTree = "<group>";
+		};
+		1E80FA621C8EA82F002155D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA631C8EA82F002155D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E80FA7B1C8EA82F002155D3 /* 08_NSSet和NSArrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA7C1C8EA82F002155D3 /* _8_NSSet_NSArrayTests.m */,
+				1E80FA7E1C8EA82F002155D3 /* Info.plist */,
+			);
+			path = "08_NSSet和NSArrayTests";
+			sourceTree = "<group>";
+		};
+		1E80FA861C8EA82F002155D3 /* 08_NSSet和NSArrayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA871C8EA82F002155D3 /* _8_NSSet_NSArrayUITests.m */,
+				1E80FA891C8EA82F002155D3 /* Info.plist */,
+			);
+			path = "08_NSSet和NSArrayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E80FA5E1C8EA82F002155D3 /* 08_NSSet和NSArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E80FA8C1C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArray" */;
+			buildPhases = (
+				1E80FA5B1C8EA82F002155D3 /* Sources */,
+				1E80FA5C1C8EA82F002155D3 /* Frameworks */,
+				1E80FA5D1C8EA82F002155D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08_NSSet和NSArray";
+			productName = "08_NSSet和NSArray";
+			productReference = 1E80FA5F1C8EA82F002155D3 /* 08_NSSet和NSArray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E80FA771C8EA82F002155D3 /* 08_NSSet和NSArrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E80FA8F1C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArrayTests" */;
+			buildPhases = (
+				1E80FA741C8EA82F002155D3 /* Sources */,
+				1E80FA751C8EA82F002155D3 /* Frameworks */,
+				1E80FA761C8EA82F002155D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E80FA7A1C8EA82F002155D3 /* PBXTargetDependency */,
+			);
+			name = "08_NSSet和NSArrayTests";
+			productName = "08_NSSet和NSArrayTests";
+			productReference = 1E80FA781C8EA82F002155D3 /* 08_NSSet和NSArrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E80FA821C8EA82F002155D3 /* 08_NSSet和NSArrayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E80FA921C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArrayUITests" */;
+			buildPhases = (
+				1E80FA7F1C8EA82F002155D3 /* Sources */,
+				1E80FA801C8EA82F002155D3 /* Frameworks */,
+				1E80FA811C8EA82F002155D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E80FA851C8EA82F002155D3 /* PBXTargetDependency */,
+			);
+			name = "08_NSSet和NSArrayUITests";
+			productName = "08_NSSet和NSArrayUITests";
+			productReference = 1E80FA831C8EA82F002155D3 /* 08_NSSet和NSArrayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E80FA571C8EA82F002155D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple.Inc;
+				TargetAttributes = {
+					1E80FA5E1C8EA82F002155D3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1E80FA771C8EA82F002155D3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E80FA5E1C8EA82F002155D3;
+					};
+					1E80FA821C8EA82F002155D3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E80FA5E1C8EA82F002155D3;
+					};
+				};
+			};
+			buildConfigurationList = 1E80FA5A1C8EA82F002155D3 /* Build configuration list for PBXProject "08_NSSet和NSArray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E80FA561C8EA82F002155D3;
+			productRefGroup = 1E80FA601C8EA82F002155D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E80FA5E1C8EA82F002155D3 /* 08_NSSet和NSArray */,
+				1E80FA771C8EA82F002155D3 /* 08_NSSet和NSArrayTests */,
+				1E80FA821C8EA82F002155D3 /* 08_NSSet和NSArrayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E80FA5D1C8EA82F002155D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA721C8EA82F002155D3 /* LaunchScreen.storyboard in Resources */,
+				1E80FA6F1C8EA82F002155D3 /* Assets.xcassets in Resources */,
+				1E80FA6D1C8EA82F002155D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA761C8EA82F002155D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA811C8EA82F002155D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E80FA5B1C8EA82F002155D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA971C8EA8EF002155D3 /* JDView.m in Sources */,
+				1E80FA6A1C8EA82F002155D3 /* ViewController.m in Sources */,
+				1E80FA671C8EA82F002155D3 /* AppDelegate.m in Sources */,
+				1E80FA641C8EA82F002155D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA741C8EA82F002155D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA7D1C8EA82F002155D3 /* _8_NSSet_NSArrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E80FA7F1C8EA82F002155D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA881C8EA82F002155D3 /* _8_NSSet_NSArrayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E80FA7A1C8EA82F002155D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E80FA5E1C8EA82F002155D3 /* 08_NSSet和NSArray */;
+			targetProxy = 1E80FA791C8EA82F002155D3 /* PBXContainerItemProxy */;
+		};
+		1E80FA851C8EA82F002155D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E80FA5E1C8EA82F002155D3 /* 08_NSSet和NSArray */;
+			targetProxy = 1E80FA841C8EA82F002155D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E80FA6B1C8EA82F002155D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80FA6C1C8EA82F002155D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E80FA701C8EA82F002155D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80FA711C8EA82F002155D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E80FA8A1C8EA82F002155D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E80FA8B1C8EA82F002155D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E80FA8D1C8EA82F002155D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "08_NSSet和NSArray/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E80FA8E1C8EA82F002155D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "08_NSSet和NSArray/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E80FA901C8EA82F002155D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08_NSSet和NSArrayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08_NSSet和NSArray.app/08_NSSet和NSArray";
+			};
+			name = Debug;
+		};
+		1E80FA911C8EA82F002155D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08_NSSet和NSArrayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08_NSSet和NSArray.app/08_NSSet和NSArray";
+			};
+			name = Release;
+		};
+		1E80FA931C8EA82F002155D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08_NSSet和NSArrayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08_NSSet和NSArray";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E80FA941C8EA82F002155D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08_NSSet和NSArrayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-8-NSSet-NSArrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08_NSSet和NSArray";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E80FA5A1C8EA82F002155D3 /* Build configuration list for PBXProject "08_NSSet和NSArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA8A1C8EA82F002155D3 /* Debug */,
+				1E80FA8B1C8EA82F002155D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E80FA8C1C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA8D1C8EA82F002155D3 /* Debug */,
+				1E80FA8E1C8EA82F002155D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E80FA8F1C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA901C8EA82F002155D3 /* Debug */,
+				1E80FA911C8EA82F002155D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E80FA921C8EA82F002155D3 /* Build configuration list for PBXNativeTarget "08_NSSet和NSArrayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA931C8EA82F002155D3 /* Debug */,
+				1E80FA941C8EA82F002155D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E80FA571C8EA82F002155D3 /* Project object */;
+}

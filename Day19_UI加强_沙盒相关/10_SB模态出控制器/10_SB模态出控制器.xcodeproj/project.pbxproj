@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E31D44A1C89BF7F00A92CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31D4491C89BF7F00A92CBC /* main.m */; };
+		1E31D44D1C89BF7F00A92CBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31D44C1C89BF7F00A92CBC /* AppDelegate.m */; };
+		1E31D4501C89BF7F00A92CBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31D44F1C89BF7F00A92CBC /* ViewController.m */; };
+		1E31D4531C89BF7F00A92CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E31D4511C89BF7F00A92CBC /* Main.storyboard */; };
+		1E31D4551C89BF7F00A92CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E31D4541C89BF7F00A92CBC /* Assets.xcassets */; };
+		1E31D4581C89BF7F00A92CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E31D4561C89BF7F00A92CBC /* LaunchScreen.storyboard */; };
+		1E31D4631C89BF7F00A92CBC /* _0_SB______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31D4621C89BF7F00A92CBC /* _0_SB______Tests.m */; };
+		1E31D46E1C89BF7F00A92CBC /* _0_SB______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E31D46D1C89BF7F00A92CBC /* _0_SB______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E31D45F1C89BF7F00A92CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E31D43D1C89BF7E00A92CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E31D4441C89BF7E00A92CBC;
+			remoteInfo = "10_SB模态出控制器";
+		};
+		1E31D46A1C89BF7F00A92CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E31D43D1C89BF7E00A92CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E31D4441C89BF7E00A92CBC;
+			remoteInfo = "10_SB模态出控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E31D4451C89BF7F00A92CBC /* 10_SB模态出控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10_SB模态出控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E31D4491C89BF7F00A92CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E31D44B1C89BF7F00A92CBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E31D44C1C89BF7F00A92CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E31D44E1C89BF7F00A92CBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E31D44F1C89BF7F00A92CBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E31D4521C89BF7F00A92CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E31D4541C89BF7F00A92CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E31D4571C89BF7F00A92CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E31D4591C89BF7F00A92CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E31D45E1C89BF7F00A92CBC /* 10_SB模态出控制器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10_SB模态出控制器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E31D4621C89BF7F00A92CBC /* _0_SB______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_SB______Tests.m"; sourceTree = "<group>"; };
+		1E31D4641C89BF7F00A92CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E31D4691C89BF7F00A92CBC /* 10_SB模态出控制器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10_SB模态出控制器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E31D46D1C89BF7F00A92CBC /* _0_SB______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_SB______UITests.m"; sourceTree = "<group>"; };
+		1E31D46F1C89BF7F00A92CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E31D4421C89BF7E00A92CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D45B1C89BF7F00A92CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D4661C89BF7F00A92CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E31D43C1C89BF7E00A92CBC = {
+			isa = PBXGroup;
+			children = (
+				1E31D4471C89BF7F00A92CBC /* 10_SB模态出控制器 */,
+				1E31D4611C89BF7F00A92CBC /* 10_SB模态出控制器Tests */,
+				1E31D46C1C89BF7F00A92CBC /* 10_SB模态出控制器UITests */,
+				1E31D4461C89BF7F00A92CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E31D4461C89BF7F00A92CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E31D4451C89BF7F00A92CBC /* 10_SB模态出控制器.app */,
+				1E31D45E1C89BF7F00A92CBC /* 10_SB模态出控制器Tests.xctest */,
+				1E31D4691C89BF7F00A92CBC /* 10_SB模态出控制器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E31D4471C89BF7F00A92CBC /* 10_SB模态出控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				1E31D44B1C89BF7F00A92CBC /* AppDelegate.h */,
+				1E31D44C1C89BF7F00A92CBC /* AppDelegate.m */,
+				1E31D44E1C89BF7F00A92CBC /* ViewController.h */,
+				1E31D44F1C89BF7F00A92CBC /* ViewController.m */,
+				1E31D4511C89BF7F00A92CBC /* Main.storyboard */,
+				1E31D4541C89BF7F00A92CBC /* Assets.xcassets */,
+				1E31D4561C89BF7F00A92CBC /* LaunchScreen.storyboard */,
+				1E31D4591C89BF7F00A92CBC /* Info.plist */,
+				1E31D4481C89BF7F00A92CBC /* Supporting Files */,
+			);
+			path = "10_SB模态出控制器";
+			sourceTree = "<group>";
+		};
+		1E31D4481C89BF7F00A92CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E31D4491C89BF7F00A92CBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E31D4611C89BF7F00A92CBC /* 10_SB模态出控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E31D4621C89BF7F00A92CBC /* _0_SB______Tests.m */,
+				1E31D4641C89BF7F00A92CBC /* Info.plist */,
+			);
+			path = "10_SB模态出控制器Tests";
+			sourceTree = "<group>";
+		};
+		1E31D46C1C89BF7F00A92CBC /* 10_SB模态出控制器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E31D46D1C89BF7F00A92CBC /* _0_SB______UITests.m */,
+				1E31D46F1C89BF7F00A92CBC /* Info.plist */,
+			);
+			path = "10_SB模态出控制器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E31D4441C89BF7E00A92CBC /* 10_SB模态出控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E31D4721C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器" */;
+			buildPhases = (
+				1E31D4411C89BF7E00A92CBC /* Sources */,
+				1E31D4421C89BF7E00A92CBC /* Frameworks */,
+				1E31D4431C89BF7E00A92CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10_SB模态出控制器";
+			productName = "10_SB模态出控制器";
+			productReference = 1E31D4451C89BF7F00A92CBC /* 10_SB模态出控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E31D45D1C89BF7F00A92CBC /* 10_SB模态出控制器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E31D4751C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器Tests" */;
+			buildPhases = (
+				1E31D45A1C89BF7F00A92CBC /* Sources */,
+				1E31D45B1C89BF7F00A92CBC /* Frameworks */,
+				1E31D45C1C89BF7F00A92CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E31D4601C89BF7F00A92CBC /* PBXTargetDependency */,
+			);
+			name = "10_SB模态出控制器Tests";
+			productName = "10_SB模态出控制器Tests";
+			productReference = 1E31D45E1C89BF7F00A92CBC /* 10_SB模态出控制器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E31D4681C89BF7F00A92CBC /* 10_SB模态出控制器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E31D4781C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器UITests" */;
+			buildPhases = (
+				1E31D4651C89BF7F00A92CBC /* Sources */,
+				1E31D4661C89BF7F00A92CBC /* Frameworks */,
+				1E31D4671C89BF7F00A92CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E31D46B1C89BF7F00A92CBC /* PBXTargetDependency */,
+			);
+			name = "10_SB模态出控制器UITests";
+			productName = "10_SB模态出控制器UITests";
+			productReference = 1E31D4691C89BF7F00A92CBC /* 10_SB模态出控制器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E31D43D1C89BF7E00A92CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple.Inc;
+				TargetAttributes = {
+					1E31D4441C89BF7E00A92CBC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1E31D45D1C89BF7F00A92CBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E31D4441C89BF7E00A92CBC;
+					};
+					1E31D4681C89BF7F00A92CBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1E31D4441C89BF7E00A92CBC;
+					};
+				};
+			};
+			buildConfigurationList = 1E31D4401C89BF7E00A92CBC /* Build configuration list for PBXProject "10_SB模态出控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E31D43C1C89BF7E00A92CBC;
+			productRefGroup = 1E31D4461C89BF7F00A92CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E31D4441C89BF7E00A92CBC /* 10_SB模态出控制器 */,
+				1E31D45D1C89BF7F00A92CBC /* 10_SB模态出控制器Tests */,
+				1E31D4681C89BF7F00A92CBC /* 10_SB模态出控制器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E31D4431C89BF7E00A92CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31D4581C89BF7F00A92CBC /* LaunchScreen.storyboard in Resources */,
+				1E31D4551C89BF7F00A92CBC /* Assets.xcassets in Resources */,
+				1E31D4531C89BF7F00A92CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D45C1C89BF7F00A92CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D4671C89BF7F00A92CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E31D4411C89BF7E00A92CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31D4501C89BF7F00A92CBC /* ViewController.m in Sources */,
+				1E31D44D1C89BF7F00A92CBC /* AppDelegate.m in Sources */,
+				1E31D44A1C89BF7F00A92CBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D45A1C89BF7F00A92CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31D4631C89BF7F00A92CBC /* _0_SB______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E31D4651C89BF7F00A92CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31D46E1C89BF7F00A92CBC /* _0_SB______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E31D4601C89BF7F00A92CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E31D4441C89BF7E00A92CBC /* 10_SB模态出控制器 */;
+			targetProxy = 1E31D45F1C89BF7F00A92CBC /* PBXContainerItemProxy */;
+		};
+		1E31D46B1C89BF7F00A92CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E31D4441C89BF7E00A92CBC /* 10_SB模态出控制器 */;
+			targetProxy = 1E31D46A1C89BF7F00A92CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E31D4511C89BF7F00A92CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E31D4521C89BF7F00A92CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E31D4561C89BF7F00A92CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E31D4571C89BF7F00A92CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E31D4701C89BF7F00A92CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E31D4711C89BF7F00A92CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E31D4731C89BF7F00A92CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10_SB模态出控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E31D4741C89BF7F00A92CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10_SB模态出控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E31D4761C89BF7F00A92CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "10_SB模态出控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10_SB模态出控制器.app/10_SB模态出控制器";
+			};
+			name = Debug;
+		};
+		1E31D4771C89BF7F00A92CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "10_SB模态出控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10_SB模态出控制器.app/10_SB模态出控制器";
+			};
+			name = Release;
+		};
+		1E31D4791C89BF7F00A92CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "10_SB模态出控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "10_SB模态出控制器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E31D47A1C89BF7F00A92CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "10_SB模态出控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.www.-0-SB------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "10_SB模态出控制器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E31D4401C89BF7E00A92CBC /* Build configuration list for PBXProject "10_SB模态出控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E31D4701C89BF7F00A92CBC /* Debug */,
+				1E31D4711C89BF7F00A92CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E31D4721C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E31D4731C89BF7F00A92CBC /* Debug */,
+				1E31D4741C89BF7F00A92CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E31D4751C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E31D4761C89BF7F00A92CBC /* Debug */,
+				1E31D4771C89BF7F00A92CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E31D4781C89BF7F00A92CBC /* Build configuration list for PBXNativeTarget "10_SB模态出控制器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E31D4791C89BF7F00A92CBC /* Debug */,
+				1E31D47A1C89BF7F00A92CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E31D43D1C89BF7E00A92CBC /* Project object */;
+}
